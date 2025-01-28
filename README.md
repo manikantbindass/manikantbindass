@@ -43,4 +43,8 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact" alt="manikantbindass" /></p>
 
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width ="6000" length="4000" alt="Snake animation" />
+
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=manikantbindass&show_icons=true&locale=en" alt="manikantbindass" /></p>
