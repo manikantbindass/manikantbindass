@@ -1,6 +1,13 @@
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
 <h1 align="center">Hi 👋, I'm Manikant!!</h1>
-<h3 align="center">A passionate Full Stack developer from India. AI & Blockchain Explorer | Deep Learning & LLM Enthusiast | Math Geek | Relentless Developer 🚀</h3>
+<h3 align="center">🚀 Passionate Full-Stack Developer | AI & Blockchain Explorer
+
+A tech enthusiast from India, exploring the frontiers of AI, Blockchain, Deep Learning, and LLMs. I thrive on solving complex problems, leveraging math, code, and innovation to build scalable solutions. A relentless developer, always experimenting and learning.
+
+<ul>🔹 Tech Stack: Java, C/C++, Solidity, Python, TensorFlow, PyTorch</ul>
+<ul>🔹 Cloud & DevOps: AWS, Azure</ul>
+
+Let’s push boundaries and shape the future! 🚀🚀</h3>
 <img aligh="right" alt ="Coding" width="400" src="https://camo.githubusercontent.com/edd6a178ee6a4b30c0bf595da631485f25e8a863620e3efe386969cc11e70bc3/68747470733a2f2f7374617469632e7769787374617469632e636f6d2f6d656469612f6262653634325f36323431346535306265663334636532386462316166616266353566313765637e6d76322e676966">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manikantbindass&label=Profile%20views&color=0e75b6&style=flat" alt="manikantbindass" /> </p>
