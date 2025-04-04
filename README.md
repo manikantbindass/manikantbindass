@@ -52,6 +52,11 @@ Let’s push boundaries and shape the future! 🚀🚀</h3>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact" alt="manikantbindass" /></p>
 
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/manikantbindass/count.svg?"  />
+</div>
+
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width ="6000" length="4000" alt="Snake animation" />
