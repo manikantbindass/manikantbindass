@@ -1,4 +1,5 @@
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
+![logo](https://github.com/manikantbindass/manikantbindass/blob/main/ChatGPT%20Image%20Apr%204%2C%202025%2C%2012_27_55%20AM.png)
 <h1 align="center">Hi 👋, I'm Manikant!!</h1>
 <h3 align="center">🚀 Passionate Full-Stack Developer | AI & Blockchain Explorer
 
