@@ -6,7 +6,11 @@
 A tech enthusiast from India, exploring the frontiers of AI, Blockchain, Deep Learning, and LLMs. I thrive on solving complex problems, leveraging math, code, and innovation to build scalable solutions. A relentless developer, always experimenting and learning.
 
 <ul>🔹 Tech Stack: Java, C/C++, Solidity, Python, TensorFlow, PyTorch</ul>
-<ul>🔹 Cloud & DevOps: AWS, Azure</ul>
+<ul>🔹 Cloud & DevOps: <p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,docker,kubernetes,githubactions,terraform,linux,bash" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=python,go" />
+</p></ul>
 
 Let’s push boundaries and shape the future! 🚀🚀</h3>
 <img aligh="center" alt ="Coding" length
