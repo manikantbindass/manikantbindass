@@ -14,7 +14,7 @@ A tech enthusiast from India, exploring the frontiers of AI, Blockchain, Deep Le
 
 ###
   <br/>
-  <img src="https://skillicons.dev/icons?i=python,go" />
+  <img src="https://skillicons.dev/icons?i=go" />
 </p></ul>
 
 Let’s push boundaries and shape the future! 🚀🚀</h3>
