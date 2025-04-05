@@ -7,7 +7,12 @@ A tech enthusiast from India, exploring the frontiers of AI, Blockchain, Deep Le
 
 <ul>🔹 Tech Stack: Java, C/C++, Solidity, Python, TensorFlow, PyTorch</ul>
 <ul>🔹 Cloud & DevOps: <p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,docker,kubernetes,githubactions,terraform,linux,bash" />
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,terraform,linux,bash" />
+  <div align="center">
+  <img height="200" src="https://media.licdn.com/dms/image/v2/D4E22AQGhWDgYcFHaZQ/feedshare-shrink_800/B4EZWq47n9G0Ag-/0/1742328806876?e=2147483647&v=beta&t=DQjnL3Yc8HFBOLDbJv5ZUNdo3pkB0ubwSodRlRJDOM0"  />
+</div>
+
+###
   <br/>
   <img src="https://skillicons.dev/icons?i=python,go" />
 </p></ul>
