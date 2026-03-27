@@ -1,3 +1,29 @@
+<!-- 🌈 ULTRA PREMIUM BANNER -->
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:7928ca,100:00c6ff&height=260&section=header&text=Manikant%20Kumar&fontSize=52&fontAlignY=38&desc=AI%20Developer%20|%20Full%20Stack%20|%20Blockchain&descAlignY=60&descAlign=50&descSize=20&animation=fadeIn&fontColor=ffffff&descColor=ffffff"/>
+
+</p>
+
+<!-- 👤 FLOATING PROFILE IMAGE -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/assets/profile.jpg" 
+width="130" 
+style="border-radius:50%; border:4px solid #ff00cc; box-shadow: 0 0 30px #ff00cc, 0 0 60px #7928ca;" />
+
+</div>
+<p>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=2500&pause=1000&color=FF00CC&center=true&vCenter=true&width=700&lines=AI+Engineer;Full+Stack+Developer;Blockchain+Innovator;LLM+Explorer;Agentic+AI+Builder;DSA+Enthusiast" />
+</p>
+
+</div>
+
+
+
+
+
+
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/ChatGPT%20Image%20Apr%204%2C%202025%2C%2012_27_55%20AM.png)
 <h1 align="center">Hi 👋, I'm Manikant!!</h1>
