@@ -54,7 +54,7 @@ Let’s push boundaries and shape the future! Solving problems at 42.42.42.42
 
 - 🌱 I’m currently learning **Deep learning and Large Language Modules**
 
-- 👨‍💻 All of my projects are available at [linktr.ee/manikantbindass](linktr.ee/manikantbindass)
+- 👨‍💻 All of my projects are available at [linktr.ee/manikantbindass](https://linktr.ee/manikantbindass)
 
 - 📝 I regularly write articles on [https://medium.com/@manikantbindass](https://medium.com/@manikantbindass)
 
