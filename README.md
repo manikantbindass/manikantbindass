@@ -1,17 +1,28 @@
 <!-- 🌈 ULTRA PREMIUM BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:7928ca,100:00c6ff&height=280&section=header&text=Manikant%20Kumar&fontSize=78&fontAlignY=36&desc=AI-Augmented%20Full%20Stack%20Developer%20%7C%20System%20Design%20Engineer%20%7C%20Blockchain%20Developer%20(Smart%20Contract)&descAlignY=61&descAlign=50&descSize=22&animation=fadeIn&fontColor=ffffff&descColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:7928ca,100:00c6ff&height=260&section=header&text=Manikant%20Kumar&fontSize=78&fontAlignY=42&animation=fadeIn&fontColor=ffffff" />
 </p>
 
-<!-- 👤 FLOATING PROFILE IMAGE -->
-<div align="center">
-  <img src="https://github.com/manikantbindass.png"
-    width="150"
-    style="border-radius:50%; border:4px solid #ff00cc; box-shadow: 0 0 30px #ff00cc, 0 0 60px #7928ca;" />
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=30&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=950&lines=AI-Augmented%20Full%20Stack%20Developer%20%7C%20System%20Design%20Engineer" />
+  <br />
+  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=30&duration=3000&pause=900&color=00C6FF&center=true&vCenter=true&width=950&lines=Blockchain%20Developer%20(Smart%20Contract)%20%7C%20Backend%20Systems%20Builder" />
+</p>
+
+<h3 align="center">⚡ Latest AI Model Scoreboard</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=1100&lines=Blockchain%20(Smart%20Contract)%20%7C%20AI%20(RAG%20and%20Agentic%20AI)%20%7C%20LLM%20and%20API%20Integration%20%7C%20Data%20Structures%20%26%20Algorithms" />
+  <img src="https://quickchart.io/chart?width=1000&height=440&backgroundColor=%230f172a&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Claude%20Opus%204.7%20T%22%2C%22Claude%20Opus%204.6%20T%22%2C%22Claude%20Opus%204.6%22%2C%22Claude%20Opus%204.7%22%2C%22Gemini%203.1%20Pro%22%2C%22Muse%20Spark%22%2C%22Gemini%203%20Pro%22%2C%22Grok%204.20%22%2C%22GPT-5.4%20High%22%2C%22Grok%20Reasoning%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22LMArena%20Text%20Arena%20Score%22%2C%22data%22%3A%5B1503%2C1503%2C1496%2C1494%2C1493%2C1492%2C1486%2C1482%2C1481%2C1479%5D%2C%22backgroundColor%22%3A%5B%22%23ff00cc%22%2C%22%2300c6ff%22%2C%22%237928ca%22%2C%22%23f59e0b%22%2C%22%2322c55e%22%2C%22%23ec4899%22%2C%22%2338bdf8%22%2C%22%23a855f7%22%2C%22%23ef4444%22%2C%22%2314b8a6%22%5D%2C%22borderColor%22%3A%22%23ffffff%22%2C%22borderWidth%22%3A1%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Latest%20Frontier%20AI%20Model%20Scores%20-%20LMArena%20Text%20Arena%20(Apr%2023%2C%202026)%22%2C%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A19%7D%2C%22legend%22%3A%7B%22labels%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%7D%7D%2C%22scales%22%3A%7B%22xAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A11%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.08)%22%7D%7D%5D%2C%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22suggestedMin%22%3A1450%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.12)%22%7D%2C%22scaleLabel%22%3A%7B%22display%22%3Atrue%2C%22labelString%22%3A%22Arena%20Score%22%2C%22fontColor%22%3A%22%23ffffff%22%7D%7D%5D%7D%2C%22plugins%22%3A%7B%22datalabels%22%3A%7B%22anchor%22%3A%22end%22%2C%22align%22%3A%22top%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22weight%22%3A%22bold%22%7D%7D%7D%7D%7D" alt="Latest AI model leaderboard graph" />
+</p>
+
+<p align="center">
+  <sub>Source: <a href="https://arena.ai/leaderboard/text">LMArena Text Arena Overall</a>, April 23, 2026 snapshot: 5,929,754 votes across 347 models.</sub>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=34&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=980&lines=Blockchain%20(Smart%20Contract)%20%7C%20AI%20(RAG%20%26%20Agentic%20AI)" />
+  <br />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=34&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=980&lines=LLM%20%26%20API%20Integration%20%7C%20Data%20Structures%20%26%20Algorithms" />
 </p>
 
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
@@ -163,6 +174,16 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3500&pause=1200&color=00C6FF&center=true&vCenter=true&width=900&lines=Don%27t%20Learn%20Tools.%20Learn%20How%20Systems%20Work." />
+</p>
+
+<h3 align="center">Quick Project Trails</h3>
+
+<p align="center">
+  <a href="https://github.com/search?q=user%3Amanikantbindass+AI&type=repositories"><img src="https://img.shields.io/badge/Explore%20AI%20Projects-FF00CC?style=for-the-badge&logo=openai&logoColor=white" alt="Explore AI Projects" /></a>
+  <a href="https://github.com/search?q=user%3Amanikantbindass+RAG&type=repositories"><img src="https://img.shields.io/badge/RAG%20Systems-7928CA?style=for-the-badge&logo=langchain&logoColor=white" alt="Explore RAG Systems" /></a>
+  <a href="https://github.com/search?q=user%3Amanikantbindass+DevOps&type=repositories"><img src="https://img.shields.io/badge/DevOps%20Labs-00C6FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="Explore DevOps Labs" /></a>
+  <a href="https://github.com/search?q=user%3Amanikantbindass+Security&type=repositories"><img src="https://img.shields.io/badge/Security%20Projects-F59E0B?style=for-the-badge&logo=owasp&logoColor=white" alt="Explore Security Projects" /></a>
+  <a href="https://github.com/search?q=user%3Amanikantbindass+Authentication&type=repositories"><img src="https://img.shields.io/badge/Auth%20Systems-22C55E?style=for-the-badge&logo=auth0&logoColor=white" alt="Explore Authentication Systems" /></a>
 </p>
 
 <h3 align="left">🔥   My Stats :</h3>
