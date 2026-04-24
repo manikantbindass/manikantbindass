@@ -4,25 +4,25 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=30&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=950&lines=AI-Augmented%20Full%20Stack%20Developer%20%7C%20System%20Design%20Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=22&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=780&lines=AI-Augmented%20Full%20Stack%20Developer" />
   <br />
-  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=30&duration=3000&pause=900&color=00C6FF&center=true&vCenter=true&width=950&lines=Blockchain%20Developer%20(Smart%20Contract)%20%7C%20Backend%20Systems%20Builder" />
+  <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=22&duration=3000&pause=900&color=00C6FF&center=true&vCenter=true&width=780&lines=System%20Design%20Engineer%20%7C%20Blockchain%20Smart%20Contract%20Developer" />
 </p>
 
 <h3 align="center">⚡ Latest AI Model Scoreboard</h3>
 
 <p align="center">
-  <img src="https://quickchart.io/chart?width=1000&height=440&backgroundColor=%230f172a&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Claude%20Opus%204.7%20T%22%2C%22Claude%20Opus%204.6%20T%22%2C%22Claude%20Opus%204.6%22%2C%22Claude%20Opus%204.7%22%2C%22Gemini%203.1%20Pro%22%2C%22Muse%20Spark%22%2C%22Gemini%203%20Pro%22%2C%22Grok%204.20%22%2C%22GPT-5.4%20High%22%2C%22Grok%20Reasoning%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22LMArena%20Text%20Arena%20Score%22%2C%22data%22%3A%5B1503%2C1503%2C1496%2C1494%2C1493%2C1492%2C1486%2C1482%2C1481%2C1479%5D%2C%22backgroundColor%22%3A%5B%22%23ff00cc%22%2C%22%2300c6ff%22%2C%22%237928ca%22%2C%22%23f59e0b%22%2C%22%2322c55e%22%2C%22%23ec4899%22%2C%22%2338bdf8%22%2C%22%23a855f7%22%2C%22%23ef4444%22%2C%22%2314b8a6%22%5D%2C%22borderColor%22%3A%22%23ffffff%22%2C%22borderWidth%22%3A1%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Latest%20Frontier%20AI%20Model%20Scores%20-%20LMArena%20Text%20Arena%20(Apr%2023%2C%202026)%22%2C%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A19%7D%2C%22legend%22%3A%7B%22labels%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%7D%7D%2C%22scales%22%3A%7B%22xAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A11%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.08)%22%7D%7D%5D%2C%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22suggestedMin%22%3A1450%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.12)%22%7D%2C%22scaleLabel%22%3A%7B%22display%22%3Atrue%2C%22labelString%22%3A%22Arena%20Score%22%2C%22fontColor%22%3A%22%23ffffff%22%7D%7D%5D%7D%2C%22plugins%22%3A%7B%22datalabels%22%3A%7B%22anchor%22%3A%22end%22%2C%22align%22%3A%22top%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22weight%22%3A%22bold%22%7D%7D%7D%7D%7D" alt="Latest AI model leaderboard graph" />
+  <img src="https://quickchart.io/chart?width=760&height=320&backgroundColor=%230f172a&c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22GPT-5.5%20Max%22%2C%22GPT-5.5%20High%22%2C%22Claude%20Opus%204.7%20Max%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Artificial%20Analysis%20Intelligence%20Index%22%2C%22data%22%3A%5B60%2C59%2C57%5D%2C%22backgroundColor%22%3A%5B%22%2300c6ff%22%2C%22%23ff00cc%22%2C%22%23f59e0b%22%5D%2C%22borderColor%22%3A%22%23ffffff%22%2C%22borderWidth%22%3A1%7D%5D%7D%2C%22options%22%3A%7B%22title%22%3A%7B%22display%22%3Atrue%2C%22text%22%3A%22Latest%20AI%20Model%20Intelligence%20Scores%22%2C%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A18%7D%2C%22legend%22%3A%7B%22labels%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A11%7D%7D%2C%22scales%22%3A%7B%22xAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22fontSize%22%3A12%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.08)%22%7D%7D%5D%2C%22yAxes%22%3A%5B%7B%22ticks%22%3A%7B%22fontColor%22%3A%22%23ffffff%22%2C%22suggestedMin%22%3A50%2C%22suggestedMax%22%3A62%7D%2C%22gridLines%22%3A%7B%22color%22%3A%22rgba(255%2C255%2C255%2C0.12)%22%7D%2C%22scaleLabel%22%3A%7B%22display%22%3Atrue%2C%22labelString%22%3A%22Index%20Score%22%2C%22fontColor%22%3A%22%23ffffff%22%7D%7D%5D%7D%2C%22plugins%22%3A%7B%22datalabels%22%3A%7B%22anchor%22%3A%22end%22%2C%22align%22%3A%22top%22%2C%22color%22%3A%22%23ffffff%22%2C%22font%22%3A%7B%22weight%22%3A%22bold%22%2C%22size%22%3A13%7D%7D%7D%7D%7D" alt="Latest AI model intelligence score graph" />
 </p>
 
 <p align="center">
-  <sub>Source: <a href="https://arena.ai/leaderboard/text">LMArena Text Arena Overall</a>, April 23, 2026 snapshot: 5,929,754 votes across 347 models.</sub>
+  <sub>Source: <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index">Artificial Analysis Intelligence Index</a>: GPT-5.5 (xhigh) 60, GPT-5.5 (high) 59, Claude Opus 4.7 Adaptive Reasoning Max Effort 57.</sub>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=34&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=980&lines=Blockchain%20(Smart%20Contract)%20%7C%20AI%20(RAG%20%26%20Agentic%20AI)" />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=28&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=850&lines=Blockchain%20Smart%20Contracts%20%7C%20AI%20RAG" />
   <br />
-  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=34&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=980&lines=LLM%20%26%20API%20Integration%20%7C%20Data%20Structures%20%26%20Algorithms" />
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=28&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=850&lines=Agentic%20AI%20%7C%20LLM%20API%20Integration%20%7C%20DSA" />
 </p>
 
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
