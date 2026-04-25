@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://manikantbindass.github.io/manikantbindass/chatbot.html">
-    <img src="manikant-chatbot.svg" alt="manikantChatBot" width="320" />
+    <img src="manikant-chatbot.svg" alt="manikantVChatBot" width="290" />
   </a>
 </p>
 
