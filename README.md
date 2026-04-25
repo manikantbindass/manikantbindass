@@ -168,13 +168,13 @@
   <img src="https://img.shields.io/badge/GitKraken-179287?style=for-the-badge&logo=gitkraken&logoColor=white" alt="GitKraken" />
 </div>
 
-<table>
+<table align="center">
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact" alt="manikantbindass" />
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact" width="460" height="220" alt="manikantbindass" />
     </td>
-    <td>
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=manikantbindass&bg_color=151820&color=7aa2ff&line=7aa2ff&point=ff3131&area=false&hide_border=true&custom_title=Manikant%20Kumar's%20Contribution%20Graph" alt="Manikant Kumar contribution graph" />
+    <td width="50%" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=manikantbindass&bg_color=151820&color=7aa2ff&line=7aa2ff&point=ff3131&area=false&hide_border=true&custom_title=Manikant%20Kumar's%20Contribution%20Graph" width="460" height="220" alt="Manikant Kumar contribution graph" />
     </td>
   </tr>
 </table>
