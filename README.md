@@ -9,6 +9,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Russo+One&weight=900&size=22&duration=3000&pause=900&color=00C6FF&center=true&vCenter=true&width=780&lines=System%20Design%20Engineer%20%7C%20Blockchain%20Smart%20Contract%20Developer" />
 </p>
 
+<p align="center">
+  <a href="https://manikantbindass.github.io/manikantbindass/chatbot.html">
+    <img src="https://img.shields.io/badge/Ask%20My%20README-Draggable%20Chatbot-00C6FF?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Ask my README chatbot" />
+  </a>
+</p>
+
 <h3 align="center">⚡ AI Model Timeline: 2020 → April 2026</h3>
 
 <p align="center">
