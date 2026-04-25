@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://manikantbindass.github.io/manikantbindass/chatbot.html">
-    <img src="https://img.shields.io/badge/Ask%20My%20README-Draggable%20Chatbot-00C6FF?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Ask my README chatbot" />
+    <img src="manikant-chatbot.svg" alt="manikantChatBot" width="320" />
   </a>
 </p>
 
