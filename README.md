@@ -94,7 +94,7 @@
 
 - 🧰 Tools I use: **n8n for Agentic AI, Git, GitHub, GitLab, GitKraken, Docker, Kubernetes, MLflow, LangChain, LlamaIndex, and modern CI/CD pipelines**
 
-- 🧩 Core concepts: **OOP, DevSecOps, deployment strategy, smart contract design, AI security, API integration, microservices, enterprise programming, MERN stack, and JavaScript-based frameworks**
+- 🧩 Core concepts: **OOP, DevSecOps, deployment strategy, smart contract design, Data Structures and Algorithms, AI security, API integration, microservices, enterprise programming, MERN stack, and JavaScript-based frameworks**
 
 - 🔐 Security focus: **API security, authentication systems, vulnerability thinking, prompt injection defense, data leakage prevention, and model attack awareness**
 
