@@ -52,6 +52,7 @@
 - 🔹 **Deployment:** Docker, Kubernetes, FastAPI, MLflow
 - 🔹 **Cloud:** AWS, Azure, and currently learning GCP
 - 🔹 **Full Stack:** MERN Stack, JavaScript frameworks, Vue.js, Three.js
+- 🔹 **Frontend Development:** HTML / CSS, JavaScript.
 - 🔹 **Database Tools:** SQL, PostgreSQL, MongoDB
 - 🔹 **Data Handling:** Pandas, NumPy
 - 🔹 **AI Security:** Prompt injection, data leakage, model attacks
