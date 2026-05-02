@@ -225,11 +225,11 @@ This section adds the backend and architecture strengths that complement the AI,
 ###
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/manikantbindass/manikantbindass/main/frv.gif" width="72%" alt="Animated AI visual" />
+  <img src="https://raw.githubusercontent.com/manikantbindass/manikantbindass/main/frv.gif" width="100%" height="340" alt="Animated AI visual" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width="72%" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width="100%" alt="Snake animation" />
 </p>
 
 <p align="center">
