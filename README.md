@@ -57,6 +57,20 @@
 - 🔹 **Data Handling:** Pandas, NumPy
 - 🔹 **AI Security:** Prompt injection, data leakage, model attacks
 
+### Backend, Architecture & Platform Skills
+
+This section adds the backend and architecture strengths that complement the AI, blockchain, and full stack work shown above.
+
+| Skill | Summary | Explanation |
+|---|---|---|
+| Spring Boot | Production-ready Java backend development | Build scalable REST APIs, layered services, secure application flows, database integrations, validation, and deployment-ready backend systems using the Spring ecosystem. |
+| Java Microservices | Distributed backend systems with Java | Design independent services with clear boundaries, service-to-service communication, resilience patterns, API contracts, and modular deployment for scalable enterprise applications. |
+| System Design | Scalable software solution planning | Design high-level systems that balance performance, scalability, reliability, caching, storage, messaging, and fault tolerance based on product and business requirements. |
+| System Architecture | Long-term technical foundation and structure | Define how components, services, integrations, infrastructure, and engineering patterns fit together so systems remain maintainable, extensible, secure, and production-ready. |
+| .NET | Enterprise application and API development | Build backend services and business applications using the Microsoft ecosystem, with a focus on clean architecture, API design, authentication, and maintainable server-side development. |
+| Java for API & Backend | Strong object-oriented backend engineering | Use Java to create robust backend applications with clean code structure, concurrency awareness, database interaction, RESTful API development, and enterprise-grade implementation practices. |
+| Python for API & Backend | Rapid backend APIs and integration workflows | Use Python for backend APIs, automation, integrations, data-driven services, and lightweight server-side development where fast iteration and readable architecture matter. |
+
 ### Cloud & DevOps
 
 <p align="center">
