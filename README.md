@@ -11,8 +11,10 @@
 
 <p align="center">
   <a href="https://manikantbindass.github.io/manikantbindass/chatbot.html">
-    <img src="manikant-chatbot.svg" alt="manikantVChatBot" width="290" />
+    <img src="manikant-chatbot.svg" alt="ManikantChatsU" width="310" />
   </a>
+  <br />
+  <sub><strong>ManikantChatsU</strong> • AI x Web3 README assistant</sub>
 </p>
 
 <h3 align="center">⚡ AI Model Timeline: 2020 → April 2026</h3>
@@ -186,7 +188,7 @@ This section adds the backend and architecture strengths that complement the AI,
 <table align="center">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact" width="460" height="220" alt="manikantbindass" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=F8FAFC" width="460" height="220" alt="manikantbindass top languages" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=manikantbindass&bg_color=151820&color=7aa2ff&line=7aa2ff&point=ff3131&area=false&hide_border=true&custom_title=Manikant%20Kumar's%20Contribution%20Graph" width="460" height="220" alt="Manikant Kumar contribution graph" />
@@ -222,7 +224,11 @@ This section adds the backend and architecture strengths that complement the AI,
 
 ###
 
-<img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width ="6000" length="4000" alt="Snake animation" />
-<img src= "https://github.com/manikantbindass/manikantbindass/blob/main/frv.gif" width ="6000" length="4000"  alt ="Animated Picture" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width="48%" alt="Snake animation" />
+  <img src="https://github.com/manikantbindass/manikantbindass/blob/main/frv.gif" width="48%" alt="Animated AI visual" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=manikantbindass&show_icons=true&locale=en" alt="manikantbindass" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=manikantbindass&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=F8FAFC&icon_color=22D3EE" width="56%" alt="manikantbindass stats" />
+</p>
