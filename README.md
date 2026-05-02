@@ -225,10 +225,13 @@ This section adds the backend and architecture strengths that complement the AI,
 ###
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width="48%" alt="Snake animation" />
-  <img src="https://github.com/manikantbindass/manikantbindass/blob/main/frv.gif" width="48%" alt="Animated AI visual" />
+  <img src="https://raw.githubusercontent.com/manikantbindass/manikantbindass/main/frv.gif" width="72%" alt="Animated AI visual" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=manikantbindass&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=F8FAFC&icon_color=22D3EE" width="56%" alt="manikantbindass stats" />
+  <img src="https://raw.githubusercontent.com/Sutil/Sutil/2b2fad3bf54522bb30c8c170591fc68ff51b69e6/github-contribution-grid-snake2.svg" width="72%" alt="Snake animation" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=manikantbindass&theme=tokyonight" width="58%" alt="manikantbindass stats" />
 </p>
