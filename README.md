@@ -17,15 +17,26 @@
   <sub><strong>ManikantChatsU</strong> • AI x Web3 README assistant</sub>
 </p>
 
-<h3 align="center">⚡ AI Model Timeline: 2020 → April 2026</h3>
+<h3 align="center">⚡ AI Model Timeline: 2020 → June 2026</h3>
 
 <p align="center">
-  <img src="ai-model-timeline.svg" alt="AI model timeline from 2020 to April 2026" width="950" />
+  <img src="ai-model-timeline.svg" alt="AI model timeline from 2020 to June 2026" width="950" />
 </p>
 
 <p align="center">
-  <sub>Timeline of major public LLM milestones. Latest score badges use <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index">Artificial Analysis Intelligence Index</a>: GPT-5.5 (xhigh) 60, GPT-5.5 (high) 59, Claude Opus 4.7 Adaptive Reasoning Max Effort 57.</sub>
+  <sub>Timeline of major public AI milestones. Latest score badges use <a href="https://artificialanalysis.ai/">Artificial Analysis Intelligence Index</a>: Claude Fable 5 #1 / 65, GPT-5.5 closest non-Anthropic frontier model, and Claude Opus 4.8 as the main Fable fallback model.</sub>
 </p>
+
+### June 2026 AI & Development Update
+
+| Area | Latest milestone | Why it matters for builders |
+|---|---|---|
+| OpenAI | <a href="https://openai.com/index/introducing-gpt-5-5/">GPT-5.5</a> rolled out for ChatGPT, Codex, and API users with major gains in agentic coding, computer use, knowledge work, scientific research, and cybersecurity safeguards. | Agents are moving from autocomplete to long-running engineering partners that can plan, edit, test, validate, and move across tools. |
+| Anthropic | <a href="https://www.anthropic.com/news/claude-opus-4-8">Claude Opus 4.8</a> improved coding, agentic tasks, professional work, dynamic workflows, and reliability; <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5</a> introduced public Mythos-class capability with safeguards and trusted-access variants. | The frontier is now about long-horizon autonomy, safer high-capability access, and fallback routing for sensitive cyber, biology, chemistry, and distillation requests. |
+| Anthropic access note | On <a href="https://www.anthropic.com/news/fable-mythos-access">June 12, 2026</a>, Anthropic said it suspended Fable 5 and Mythos 5 access after a US government directive, while other Claude models remained available. | Governance, safety review, export controls, and deployment policy are now part of practical AI engineering, not side topics. |
+| Google | Google I/O 2026 introduced <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/">Gemini Omni</a> for multimodal video generation/editing and the <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/">Gemini 3.5 family</a> for agentic workflows; Gemini 3.5 Live Translate added near real-time speech translation. | Multimodal, voice, video, and agentic coding capabilities are converging into everyday product interfaces. |
+| Meta | <a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/">Llama 4 Scout and Maverick</a> brought open-weight, natively multimodal MoE models, while Behemoth served as a larger teacher model. | Open models are becoming more capable for local, enterprise, and cost-sensitive AI apps. |
+| Artificial Analysis | <a href="https://artificialanalysis.ai/articles/claude-fable-5-mythos-intelligence-index">Claude Fable 5 scored 64.9</a> and launched at #1 on the Intelligence Index in June 2026. | Benchmarks are shifting toward agentic work: coding terminals, office tasks, long-context reasoning, tool use, and hallucination resistance. |
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&weight=900&size=28&duration=3000&pause=900&color=FF00CC&center=true&vCenter=true&width=850&lines=Blockchain%20Smart%20Contracts%20%7C%20AI%20RAG" />
@@ -48,9 +59,9 @@
 
 - 🔹 **Core Languages:** Java, C/C++, Solidity, Python, JavaScript, TypeScript
 - 🔹 **AI Tools:** Python, PyTorch, pylab, TensorFlow, scikit-learn, Hugging Face
-- 🔹 **API Integration:** OpenAI API, Anthropic Claude API
+- 🔹 **API Integration:** OpenAI API, Anthropic Claude API, Google Gemini API, DeepSeek API, Mistral API
 - 🔹 **RAG Retrieval Systems:** LangChain, LlamaIndex, vector databases including Pinecone, FAISS, and Weaviate
-- 🔹 **AI Agents:** LangGraph, AutoGen, CrewAI
+- 🔹 **AI Agents:** LangGraph, AutoGen, CrewAI, Codex-style coding agents, tool-using workflows
 - 🔹 **Deployment:** Docker, Kubernetes, FastAPI, MLflow
 - 🔹 **Cloud:** AWS, Azure, and currently learning GCP
 - 🔹 **Full Stack:** MERN Stack, JavaScript frameworks, Vue.js, Three.js
