@@ -45,7 +45,10 @@
 </p>
 
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
-![Animated Manikant portrait](https://github.com/manikantbindass/manikantbindass/blob/main/manikant-animated.gif)
+
+<p align="center">
+  <img src="manikant-animated.gif" alt="Animated Manikant portrait" width="100%" height="250" />
+</p>
 
 <h1 align="center">Hi 👋, I'm Manikant!!</h1>
 
