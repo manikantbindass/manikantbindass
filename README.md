@@ -45,11 +45,7 @@
 </p>
 
 ![logo](https://github.com/manikantbindass/manikantbindass/blob/main/GitHub%20BAnner2.png)
-![logo](https://github.com/manikantbindass/manikantbindass/blob/main/ChatGPT%20Image%20Apr%204%2C%202025%2C%2012_27_55%20AM.png)
-
-<p align="center">
-  <img src="manikant-animated.gif" alt="Animated Manikant portrait" width="460" />
-</p>
+![Animated Manikant portrait](https://github.com/manikantbindass/manikantbindass/blob/main/manikant-animated.gif)
 
 <h1 align="center">Hi 👋, I'm Manikant!!</h1>
 
