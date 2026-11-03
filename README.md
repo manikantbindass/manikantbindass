@@ -121,7 +121,7 @@ C, Go, HTML, CSS, Express, Three.js, NumPy, Pandas, pylab, Nginx, Bash, Jenkins,
 A curated timeline of the releases shaping how I think about AI engineering.
 
 <p align="center">
-  <img src="ai-model-timeline.svg" width="100%" alt="Selected AI milestones from GPT-3 in 2020 to October 2026 releases: GPT-6.1 Terra, Claude 5.5, Gemini 4 Argon and restricted-access Carbon. Checked November 3, 2026." />
+  <img src="ai-model-timeline.svg?v=20261103" width="100%" alt="Selected AI milestones from GPT-3 in 2020 to October 2026 releases: GPT-6.1 Terra, Claude 5.5, Gemini 4 Argon and restricted-access Carbon. Checked November 3, 2026." />
 </p>
 
 ### Recent releases worth tracking
