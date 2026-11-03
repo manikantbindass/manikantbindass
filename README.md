@@ -1,6 +1,6 @@
 <!-- Repository-hosted SVG animations; no scripts or embedded iframes. -->
 <p align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="Manikant Kumar — AI-augmented full stack developer, backend engineer and smart contract developer from India. Animated orbital constellation." />
+  <img src="assets/profile-hero.svg" width="100%" alt="Manikant Kumar — AI-augmented full stack developer, backend engineer and smart contract developer. Animated orbital constellation." />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linktr.ee/manikantbindass"><img src="https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore my work" /></a>
+  <a href="https://manikantbindass.github.io/manikantbindass/"><img src="https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore my work" /></a>
   <a href="https://www.linkedin.com/in/manikantbindass"><img src="https://img.shields.io/badge/Let's_connect-111827?style=for-the-badge&amp;logo=linkedin&amp;logoColor=A5B4FC" alt="Connect on LinkedIn" /></a>
   <a href="mailto:manikantbindas@gmail.com"><img src="https://img.shields.io/badge/Say_hello-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=C4B5FD" alt="Email Manikant" /></a>
 </p>
@@ -22,11 +22,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3200&amp;pause=1200&amp;color=67E8F9&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=48&amp;lines=Design+the+system.+Build+the+product.;Connect+intelligence+to+real-world+workflows.;Keep+learning.+Keep+shipping." width="90%" alt="Design the system. Build the product. Connect intelligence to real-world workflows. Keep learning. Keep shipping." />
 </p>
 
+<p align="center">
+  <img src="ChatGPT%20Image%20Apr%204%2C%202025%2C%2012_27_55%20AM.png" width="260" alt="Illustrated portrait of Manikant beside a sunlit pillar" />
+  <br />
+  <sub>Always curious. Always building.</sub>
+</p>
+
+<p align="center"><a href="https://manikantbindass.github.io/manikantbindass/"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/manikantbindass?tab=repositories">Browse my repositories ↗</a></p>
+
 <a id="about"></a>
 
-## Hey, I'm Manikant 👋
+## Complex ideas. Useful software.
 
-I'm a developer from India working across **AI-augmented full stack development, backend engineering, and blockchain smart contracts**. I enjoy the space where mathematics, code, and system design meet: turning a complex problem into a clear architecture and a useful product.
+I'm **Manikant Kumar**, a developer working across **AI-augmented full stack development, backend engineering, and blockchain smart contracts**. I turn complex problems into clear architectures, connected workflows, and useful software.
 
 My current focus is **agentic AI, retrieval-augmented generation, secure APIs, and scalable backend systems**. I care about how the pieces work together—from the interface and data layer to authentication, deployment, and observability.
 
