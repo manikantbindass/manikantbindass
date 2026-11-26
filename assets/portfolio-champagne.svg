@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-labelledby="title description">
+  <title id="title">Open my portfolio</title>
+  <desc id="description">Manikant Kumar’s portfolio for AI engineering, full stack development, and blockchain.</desc>
+  <defs>
+    <linearGradient id="surface" x2="1" y2="1">
+      <stop stop-color="#131a21"/>
+      <stop offset=".62" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#050608"/>
+    </linearGradient>
+    <linearGradient id="champagne" gradientUnits="userSpaceOnUse" x1="27" y1="0" x2="300" y2="0">
+      <stop stop-color="#fff5e4"/>
+      <stop offset=".46" stop-color="#f3e2c8"/>
+      <stop offset="1" stop-color="#dfbf94"/>
+    </linearGradient>
+    <linearGradient id="edge">
+      <stop stop-color="#5287aa"/>
+      <stop offset=".52" stop-color="#27313a"/>
+      <stop offset="1" stop-color="#416781"/>
+    </linearGradient>
+    <rect id="outline" x="1.25" y="1.25" width="997.5" height="53.5" rx="13.5" pathLength="1"/>
+    <filter id="edge-glow" filterUnits="userSpaceOnUse" x="-4" y="-4" width="1008" height="64" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+  <style>
+    .edge-signal {
+      stroke-dasharray: .081 .919;
+      stroke-linecap: round;
+      animation: trace-edge 10s linear infinite;
+    }
+    @keyframes trace-edge { from { stroke-dashoffset: -.18; } to { stroke-dashoffset: -1.18; } }
+    @media (prefers-reduced-motion: reduce) { .edge-signal { display: none; } }
+  </style>
+  <use href="#outline" fill="url(#surface)" stroke="url(#edge)"/>
+  <g fill="none" stroke="#83cdf6">
+    <use href="#outline" stroke-width="2" opacity=".4" filter="url(#edge-glow)" class="edge-signal"/>
+    <use href="#outline" stroke-width="1.05" class="edge-signal"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="27" y="40" fill="url(#champagne)" font-size="32" font-weight="730" letter-spacing="-.52">Open my portfolio</text>
+    <path d="M318 18V39" stroke="#63584a" stroke-linecap="round"/>
+    <text x="342" y="36" fill="#d4c8b7" font-size="22">AI engineering · Full stack · Blockchain</text>
+  </g>
+  <rect x="945" y="12" width="32" height="32" rx="9" fill="#0c1217" stroke="#426a83"/>
+  <path d="M955 34L967 22M958 22H967V31" fill="none" stroke="#b7e4fc" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

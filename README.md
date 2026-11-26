@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://portfolio-ten-omega-4ibkho6f7u.vercel.app/">
-    <img src="assets/portfolio-compact.svg" width="100%" alt="Open Manikant Kumar’s portfolio on Vercel. AI engineering, full stack, and blockchain." />
+    <img src="assets/portfolio-champagne.svg" width="100%" alt="Open Manikant Kumar’s portfolio on Vercel. AI engineering, full stack, and blockchain." />
   </a>
 </p>
 
