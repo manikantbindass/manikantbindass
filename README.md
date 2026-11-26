@@ -88,14 +88,14 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://autohealops.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/AutoHealOps/main/docs/screenshots/autohealops-vercel.png" alt="AutoHealOps dashboard showing Kubernetes workload health and recovery activity" width="100%" /></a>
+<a href="https://autohealops.vercel.app"><img src="assets/featured-autohealops.svg" alt="Open AutoHealOps. Preview of the Kubernetes operations console in an animated blue glass frame." width="100%" /></a>
 <h3>AutoHealOps</h3>
 <p><sub><strong>KUBERNETES · AIOPS</strong></sub></p>
 <p>Explore cluster telemetry, detect anomalies, and review guarded recovery actions in a self-healing Kubernetes simulator.</p>
 <p><a href="https://autohealops.vercel.app"><strong>Live demo ↗</strong></a> · <a href="https://github.com/manikantbindass/AutoHealOps">Source</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://flownova-ai.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/FlowNovaAI/main/docs/assets/screenshots/editor.png" alt="FlowNova AI's visual workflow editor with connected nodes" width="100%" /></a>
+<a href="https://flownova-ai.vercel.app"><img src="assets/featured-flownova.svg" alt="Open FlowNova AI. Preview of the visual workflow canvas in an animated violet glass frame." width="100%" /></a>
 <h3>FlowNova AI</h3>
 <p><sub><strong>WORKFLOW AUTOMATION · FULL STACK</strong></sub></p>
 <p>Build workflows on a visual canvas, publish versions, run them, and inspect the results from each node.</p>
@@ -104,12 +104,14 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://mathlens-wine.vercel.app"><img src="assets/featured-mathlens.svg" alt="Open MathLens. Animated loss curve in a teal glass frame." width="100%" /></a>
 <h3>MathLens</h3>
 <p><sub><strong>MATH VISUALIZATION · MODEL ANALYSIS</strong></sub></p>
 <p>An interactive workbench for mathematical concepts behind machine learning, from loss surfaces to optimization.</p>
 <p><a href="https://mathlens-wine.vercel.app"><strong>Open MathLens ↗</strong></a> · <a href="https://github.com/manikantbindass/mathlens">Source</a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/manikantbindass/NeuroMap.AI"><img src="assets/featured-neuromap.svg" alt="Explore NeuroMap AI. Animated diagram of stacked image slices." width="100%" /></a>
 <h3>NeuroMap AI</h3>
 <p><sub><strong>SCIENTIFIC SOFTWARE · REPRODUCIBLE ML</strong></sub></p>
 <p>A research workspace for visualizing brain images and running reproducible ML experiments with synthetic data.</p>
@@ -118,12 +120,14 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/manikantbindass/SecureRxChain-Blockchain-Based-Drug-Supply-Chain-Counterfeit-Medicine-Prevention-System"><img src="assets/featured-securerxchain.svg" alt="Explore SecureRxChain. An animated amber signal moves through linked blocks." width="100%" /></a>
 <h3>SecureRxChain</h3>
 <p><sub><strong>SMART CONTRACTS · SUPPLY CHAIN</strong></sub></p>
 <p>A project exploring pharmaceutical batch traceability with Solidity contracts, QR verification, and anomaly detection.</p>
 <p><a href="https://github.com/manikantbindass/SecureRxChain-Blockchain-Based-Drug-Supply-Chain-Counterfeit-Medicine-Prevention-System"><strong>Explore the project ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/manikantbindass/Leetcode-GitPush-extension"><img src="assets/featured-leetcode-sync.svg" alt="Explore LeetCode AI Sync. An animation connects a code window to GitHub." width="100%" /></a>
 <h3>LeetCode AI Sync</h3>
 <p><sub><strong>DEVELOPER TOOLS · BROWSER EXTENSION</strong></sub></p>
 <p>A TypeScript Chrome extension that sends accepted LeetCode solutions to GitHub and generates versions in other programming languages for practice.</p>
@@ -131,6 +135,17 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 </td>
 </tr>
 </table>
+
+<details>
+<summary><strong>Full project screenshots</strong></summary>
+
+<p><strong>AutoHealOps</strong></p>
+<p><a href="https://autohealops.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/AutoHealOps/main/docs/screenshots/autohealops-vercel.png" alt="AutoHealOps dashboard showing Kubernetes workload health and recovery activity" width="100%" /></a></p>
+
+<p><strong>FlowNova AI</strong></p>
+<p><a href="https://flownova-ai.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/FlowNovaAI/main/docs/assets/screenshots/editor.png" alt="FlowNova AI's visual workflow editor with connected nodes" width="100%" /></a></p>
+
+</details>
 
 <a id="engineering"></a>
 

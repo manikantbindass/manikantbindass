@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="120" viewBox="0 0 680 120" role="img" aria-labelledby="title description">
+  <title id="title">Batch traceability</title>
+  <desc id="description">A warm signal moves through three linked blocks, illustrating on-chain batch tracking.</desc>
+  <defs>
+    <radialGradient id="color-wash">
+      <stop stop-color="#9a5a30" stop-opacity=".49"/>
+      <stop offset="1" stop-color="#9a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="reflected-color">
+      <stop stop-color="#e1768b" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#e1768b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x2="1" y2="1">
+      <stop stop-color="#eaf2ff" stop-opacity=".13"/>
+      <stop offset=".54" stop-color="#eaf2ff" stop-opacity=".025"/>
+      <stop offset="1" stop-color="#ffc583" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="edge" x2="1" y2="1">
+      <stop stop-color="#ffc583" stop-opacity=".56"/>
+      <stop offset=".5" stop-color="#dddaf7" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#e1768b" stop-opacity=".52"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffc583" stroke-opacity=".065"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="680" height="120" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .track, .signal { fill: none; stroke: #ffc583; stroke-linecap: round; stroke-linejoin: round; }
+    .track { stroke-width: 2; stroke-opacity: .34; }
+    .signal { stroke-width: 3; stroke-dasharray: .15 .85; filter: drop-shadow(0 0 3px #ffc583); animation: travel 5.2s linear infinite; }
+    .footer-signal { animation-duration: 7.4s; }
+    @keyframes travel { from { stroke-dashoffset: .15; } to { stroke-dashoffset: -.85; } }
+    @media (prefers-reduced-motion: reduce) { .signal { display: none; } }
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="680" height="120" fill="#06070b"/>
+    <ellipse cx="122" cy="8" rx="330" ry="148" fill="url(#color-wash)"/>
+    <ellipse cx="662" cy="100" rx="306" ry="133" fill="url(#reflected-color)"/>
+    <rect width="680" height="120" fill="url(#grid)"/>
+    <rect x=".75" y=".75" width="678.5" height="118.5" rx="23.25" fill="url(#glass)" stroke="url(#edge)"/>
+    <path d="M28 2H237" stroke="#ffc583" stroke-opacity=".22" stroke-linecap="round"/>
+    <circle cx="37" cy="60" r="4" fill="#ffc583"/>
+    <text x="54" y="68" fill="#f5f5fc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Batch traceability</text>
+    <path d="M455 61H616" class="track"/>
+    <path d="M455 61H616" pathLength="1" class="signal"/>
+    <g fill="#2f251c" stroke="#ffc583" stroke-opacity=".55">
+      <path d="m456 44 16 8v18l-16 8-16-8V52z"/>
+      <path d="m535 44 16 8v18l-16 8-16-8V52z"/>
+      <path d="m614 44 16 8v18l-16 8-16-8V52z"/>
+    </g>
+    <path d="m440 52 16 8 16-8m-16 8v18m63-26 16 8 16-8m-16 8v18m63-26 16 8 16-8m-16 8v18" fill="none" stroke="#ffc583" stroke-opacity=".42"/>
+  </g>
+</svg>

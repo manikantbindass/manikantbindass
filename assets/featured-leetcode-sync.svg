@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="120" viewBox="0 0 680 120" role="img" aria-labelledby="title description">
+  <title id="title">Accepted to GitHub</title>
+  <desc id="description">An animated connection runs from a code window to a repository, illustrating the submission sync.</desc>
+  <defs>
+    <radialGradient id="color-wash">
+      <stop stop-color="#962f68" stop-opacity=".49"/>
+      <stop offset="1" stop-color="#962f68" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="reflected-color">
+      <stop stop-color="#ac82fa" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#ac82fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x2="1" y2="1">
+      <stop stop-color="#eaf2ff" stop-opacity=".13"/>
+      <stop offset=".54" stop-color="#eaf2ff" stop-opacity=".025"/>
+      <stop offset="1" stop-color="#f2a7cf" stop-opacity=".08"/>
+    </linearGradient>
+    <linearGradient id="edge" x2="1" y2="1">
+      <stop stop-color="#f2a7cf" stop-opacity=".56"/>
+      <stop offset=".5" stop-color="#dddaf7" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#ac82fa" stop-opacity=".52"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#f2a7cf" stroke-opacity=".065"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="680" height="120" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .track, .signal { fill: none; stroke: #f2a7cf; stroke-linecap: round; stroke-linejoin: round; }
+    .track { stroke-width: 2; stroke-opacity: .34; }
+    .signal { stroke-width: 3; stroke-dasharray: .15 .85; filter: drop-shadow(0 0 3px #f2a7cf); animation: travel 5.2s linear infinite; }
+    .footer-signal { animation-duration: 7.4s; }
+    @keyframes travel { from { stroke-dashoffset: .15; } to { stroke-dashoffset: -.85; } }
+    @media (prefers-reduced-motion: reduce) { .signal { display: none; } }
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="680" height="120" fill="#06070b"/>
+    <ellipse cx="122" cy="8" rx="330" ry="148" fill="url(#color-wash)"/>
+    <ellipse cx="662" cy="100" rx="306" ry="133" fill="url(#reflected-color)"/>
+    <rect width="680" height="120" fill="url(#grid)"/>
+    <rect x=".75" y=".75" width="678.5" height="118.5" rx="23.25" fill="url(#glass)" stroke="url(#edge)"/>
+    <path d="M28 2H237" stroke="#f2a7cf" stroke-opacity=".22" stroke-linecap="round"/>
+    <circle cx="37" cy="60" r="4" fill="#f2a7cf"/>
+    <text x="54" y="68" fill="#f5f5fc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Accepted to GitHub</text>
+    <rect x="431" y="34" width="87" height="54" rx="11" fill="#301b33" stroke="#efb0d3" stroke-opacity=".5"/>
+    <path d="m457 52-8 9 8 9m35-18 8 9-8 9m-18 4 9-26" fill="none" stroke="#f0b5d3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M518 61H596" class="track"/>
+    <path d="M518 61H596" pathLength="1" class="signal"/>
+    <rect x="596" y="39" width="49" height="44" rx="11" fill="#301b33" stroke="#efb0d3" stroke-opacity=".5"/>
+    <path d="m611 62 6 6 12-13" fill="none" stroke="#f4c0dd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
