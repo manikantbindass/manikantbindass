@@ -2,22 +2,55 @@
   <title id="title">Explore Manikant Kumar’s portfolio</title>
   <desc id="description">An animated portfolio preview connects Engineering, Explore, and the Profile Assistant.</desc>
   <defs>
-    <linearGradient id="background" x2="1" y2="1">
-      <stop stop-color="#090e1f"/>
-      <stop offset="1" stop-color="#1b1737"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#040509"/>
+      <stop offset=".5" stop-color="#090815"/>
+      <stop offset="1" stop-color="#050407"/>
     </linearGradient>
-    <linearGradient id="accent">
-      <stop stop-color="#67e8f9"/>
-      <stop offset="1" stop-color="#c4b5fd"/>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="594" y1="146" x2="912" y2="146">
+      <stop stop-color="#70f5ef"/>
+      <stop offset=".48" stop-color="#8e9fff"/>
+      <stop offset="1" stop-color="#f69ad9"/>
     </linearGradient>
-    <radialGradient id="halo">
-      <stop stop-color="#8177ff" stop-opacity=".29"/>
-      <stop offset="1" stop-color="#8177ff" stop-opacity="0"/>
+    <radialGradient id="cyan-light">
+      <stop stop-color="#0bafc6" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#0bafc6" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="orchid-light">
+      <stop stop-color="#9c4fef" stop-opacity=".33"/>
+      <stop offset="1" stop-color="#9c4fef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose-light">
+      <stop stop-color="#e85b9a" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#e85b9a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2=".9" y2="1">
+      <stop stop-color="#eef9ff" stop-opacity=".14"/>
+      <stop offset=".55" stop-color="#b9bfff" stop-opacity=".055"/>
+      <stop offset="1" stop-color="#f1b6ff" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="glass-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#bbf7ff" stop-opacity=".62"/>
+      <stop offset=".46" stop-color="#e2ddff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#e8a4e2" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="reflection">
+      <stop stop-color="#e3faff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#e3faff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#e3faff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="button-glass" x2="1" y2="1">
+      <stop stop-color="#72f7e7" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#a899ff" stop-opacity=".075"/>
+    </linearGradient>
+    <filter id="glow" x="-.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#a5b4fc" stroke-opacity=".09"/>
+      <path d="M32 0H0V32" fill="none" stroke="#b6c0e6" stroke-opacity=".055"/>
     </pattern>
     <clipPath id="frame"><rect width="1000" height="232" rx="24"/></clipPath>
+    <clipPath id="browser"><rect x="548" y="33" width="409" height="167" rx="17"/></clipPath>
   </defs>
   <style>
     text { font-family: "Segoe UI", Arial, sans-serif; }
@@ -26,41 +59,52 @@
     .destination { animation: glow 5.2s ease-in-out infinite; }
     .explore { animation-delay: .9s; }
     .assistant { animation-delay: 1.8s; }
+    .sheen { animation: sweep 8.5s ease-in-out infinite; }
     @keyframes travel { from { stroke-dashoffset: 1.15; } to { stroke-dashoffset: .15; } }
     @keyframes glow { 0%, 65%, 100% { opacity: .22; } 22% { opacity: 1; } }
+    @keyframes sweep { 0%, 14% { transform: translateX(-260px); } 66%, 100% { transform: translateX(520px); } }
     @media (prefers-reduced-motion: reduce) {
-      .signal { display: none; }
+      .signal, .sheen { display: none; }
       .destination { animation: none; opacity: .65; }
     }
   </style>
   <g clip-path="url(#frame)">
     <rect width="1000" height="232" fill="url(#background)"/>
+    <ellipse cx="142" cy="214" rx="377" ry="226" fill="url(#cyan-light)"/>
+    <ellipse cx="743" cy="9" rx="390" ry="213" fill="url(#orchid-light)"/>
+    <ellipse cx="986" cy="218" rx="284" ry="179" fill="url(#rose-light)"/>
     <rect width="1000" height="232" fill="url(#grid)"/>
-    <ellipse cx="786" cy="119" rx="318" ry="168" fill="url(#halo)"/>
-    <path d="M26 1H974" stroke="url(#accent)" stroke-width="2"/>
-    <path d="M40 49h28" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
-    <text x="82" y="55" fill="#a5f3fc" font-size="18" class="label">MANIKANT KUMAR</text>
+    <rect x=".75" y=".75" width="998.5" height="230.5" rx="23" fill="none" stroke="url(#glass-edge)" opacity=".55"/>
+    <path d="M38 49h30" stroke="#76f7e8" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="55" fill="#bbf9f2" font-size="18" class="label">MANIKANT KUMAR</text>
     <text x="39" y="114" fill="#f8fafc" font-size="54" font-weight="750" letter-spacing="-1.8">Portfolio</text>
-    <text x="42" y="151" fill="#c6d2e9" font-size="21">Engineering, projects &amp; the profile assistant</text>
-    <rect x="42" y="174" width="188" height="38" rx="10" fill="#162b40" stroke="#4797b0"/>
-    <text x="58" y="199" fill="#b6f5fe" font-size="19" font-weight="700">Open portfolio ↗</text>
-    <rect x="548" y="33" width="409" height="167" rx="17" fill="#111a31" stroke="#575d89"/>
-    <path d="M548 68H957" stroke="#404766"/>
+    <text x="42" y="151" fill="#d2dbea" font-size="21">Engineering, projects &amp; the profile assistant</text>
+    <rect x="42" y="174" width="188" height="38" rx="12" fill="url(#button-glass)" stroke="url(#glass-edge)"/>
+    <path d="M57 175H181" stroke="#c8fff7" stroke-opacity=".18"/>
+    <text x="58" y="199" fill="#d1fff8" font-size="19" font-weight="700">Open portfolio ↗</text>
+    <rect x="550" y="39" width="407" height="163" rx="17" fill="#020207" opacity=".55" filter="url(#glow)"/>
+    <rect x="548" y="33" width="409" height="167" rx="17" fill="url(#glass)" stroke="url(#glass-edge)"/>
+    <g clip-path="url(#browser)">
+      <rect x="548" y="33" width="409" height="35" fill="#f1ecff" opacity=".04"/>
+      <path d="M550 114C644 107 774 42 951 35" fill="none" stroke="#e4d5ff" stroke-opacity=".13" stroke-width="26" filter="url(#glow)"/>
+      <path d="M568 32H616L548 202H500Z" fill="url(#reflection)" class="sheen"/>
+      <path d="M548 68H957" stroke="#e5dcff" stroke-opacity=".18"/>
+    </g>
     <circle cx="570" cy="51" r="4" fill="#67e8f9"/>
     <circle cx="584" cy="51" r="4" fill="#a5b4fc"/>
     <circle cx="598" cy="51" r="4" fill="#dbb7fc"/>
     <text x="638" y="57" fill="#b9c8e3" font-size="16" class="label">manikantbindass.github.io</text>
-    <path d="M594 146H912" fill="none" stroke="#48516f" stroke-width="2" stroke-linecap="round"/>
+    <path d="M594 146H912" fill="none" stroke="url(#accent)" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
     <path d="M594 146H912" pathLength="1" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" class="signal"/>
     <g text-anchor="middle" font-size="17" font-weight="650">
-      <circle cx="612" cy="146" r="13" fill="#67e8f9" class="destination"/>
-      <circle cx="612" cy="146" r="6" fill="#67e8f9"/>
+      <circle cx="612" cy="146" r="11" fill="#70f5ef" filter="url(#glow)" class="destination"/>
+      <circle cx="612" cy="146" r="5" fill="#aefcf5"/>
       <text x="612" y="181" fill="#d7f7ff">Engineering</text>
-      <circle cx="746" cy="146" r="13" fill="#a5b4fc" class="destination explore"/>
-      <circle cx="746" cy="146" r="6" fill="#a5b4fc"/>
+      <circle cx="746" cy="146" r="11" fill="#a5b4fc" filter="url(#glow)" class="destination explore"/>
+      <circle cx="746" cy="146" r="5" fill="#c0caff"/>
       <text x="746" y="181" fill="#e5e9ff">Explore</text>
-      <circle cx="881" cy="146" r="13" fill="#d8b4fe" class="destination assistant"/>
-      <circle cx="881" cy="146" r="6" fill="#d8b4fe"/>
+      <circle cx="881" cy="146" r="11" fill="#f69ad9" filter="url(#glow)" class="destination assistant"/>
+      <circle cx="881" cy="146" r="5" fill="#ffc0e5"/>
       <text x="881" y="181" fill="#f1e5ff">Profile assistant</text>
     </g>
   </g>
