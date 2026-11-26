@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="436" viewBox="0 0 1000 436" role="img" aria-labelledby="title description">
+  <title id="title">Self-attention for one query</title>
+  <desc id="description">In the example The robot moved, the query for moved assigns example weights of 0.10 to The, 0.60 to robot, and 0.30 to moved. The value vectors are combined with these weights to produce a context vector.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#090f21"/>
+      <stop offset="1" stop-color="#1b1737"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#67e8f9"/>
+      <stop offset=".55" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#d8b4fe"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a5b4fc" stroke-opacity=".08"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="436" rx="24"/></clipPath>
+    <path id="the-value" d="M606 188C716 188 716 268 792 268"/>
+    <path id="robot-value" d="M606 268H792"/>
+    <path id="moved-value" d="M606 348C716 348 716 268 792 268"/>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .label { font-family: Consolas, monospace; font-weight: 700; letter-spacing: .09em; }
+    .route { fill: none; stroke: currentColor; stroke-linecap: round; }
+    .signal { stroke-dasharray: 13 305; animation: pass 3.8s linear infinite; }
+    .fast { animation-delay: -.75s; }
+    .late { animation-delay: -1.5s; }
+    @keyframes pass { from { stroke-dashoffset: 13; } to { stroke-dashoffset: -305; } }
+    @media (prefers-reduced-motion: reduce) { .signal { display: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="436" fill="url(#background)"/>
+    <rect width="1000" height="436" fill="url(#grid)"/>
+    <path d="M26 1H974" stroke="url(#accent)" stroke-width="2"/>
+    <text x="36" y="62" fill="#f8fafc" font-size="42" font-weight="750" letter-spacing="-1">Self-attention, one query</text>
+    <text x="38" y="99" fill="#c1cde7" font-size="23">Example sequence: “The robot moved”</text>
+    <path d="M36 120H964" stroke="#38435e"/>
+    <g font-size="18" class="label" text-anchor="middle">
+      <text x="129" y="153" fill="#a5f3fc">QUERY</text>
+      <text x="491" y="153" fill="#c7d2fe">KEYS / VALUES</text>
+      <text x="878" y="153" fill="#e9d5ff">OUTPUT</text>
+    </g>
+    <g fill="none" stroke="#5294ac" stroke-width="2" stroke-dasharray="5 6" opacity=".65">
+      <path d="M214 268C286 268 299 188 376 188"/>
+      <path d="M214 268H376"/>
+      <path d="M214 268C286 268 299 348 376 348"/>
+    </g>
+    <g class="route">
+      <use href="#the-value" color="#67e8f9" stroke-width="2" opacity=".65"/>
+      <use href="#robot-value" color="#a5b4fc" stroke-width="9" opacity=".72"/>
+      <use href="#moved-value" color="#d8b4fe" stroke-width="4.5" opacity=".72"/>
+      <use href="#the-value" color="#d1faff" stroke-width="3.5" class="signal"/>
+      <use href="#robot-value" color="#f2f0ff" stroke-width="6" class="signal fast"/>
+      <use href="#moved-value" color="#f6eaff" stroke-width="4" class="signal late"/>
+    </g>
+    <rect x="42" y="233" width="172" height="70" rx="12" fill="#112536" stroke="#4e9ab2"/>
+    <text x="128" y="277" text-anchor="middle" fill="#d5f9ff" font-size="31" font-weight="700">moved</text>
+    <g font-size="26" font-weight="650">
+      <rect x="376" y="160" width="230" height="56" rx="12" fill="#13243a" stroke="#4e8c9e"/>
+      <text x="398" y="197" fill="#edf9ff">The</text>
+      <text x="581" y="197" text-anchor="end" fill="#a5f3fc" class="label">0.10</text>
+      <rect x="376" y="240" width="230" height="56" rx="12" fill="#1a2546" stroke="#7789d5"/>
+      <text x="398" y="277" fill="#eef0ff">robot</text>
+      <text x="581" y="277" text-anchor="end" fill="#c7d2fe" class="label">0.60</text>
+      <rect x="376" y="320" width="230" height="56" rx="12" fill="#241d3e" stroke="#9573b8"/>
+      <text x="398" y="357" fill="#f6edff">moved</text>
+      <text x="581" y="357" text-anchor="end" fill="#e9d5ff" class="label">0.30</text>
+    </g>
+    <rect x="792" y="227" width="172" height="82" rx="12" fill="#241d3e" stroke="#9573b8"/>
+    <text x="878" y="262" text-anchor="middle" fill="#f6edff" font-size="25" font-weight="700">Context</text>
+    <text x="878" y="289" text-anchor="middle" fill="#d9c6ee" font-size="20">weighted sum</text>
+    <text x="38" y="410" fill="#adbdda" font-size="19">Illustrative weights for one head. Thicker paths represent larger weights.</text>
+  </g>
+</svg>

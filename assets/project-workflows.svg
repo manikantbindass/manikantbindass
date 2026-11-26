@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="332" viewBox="0 0 1000 332" role="img" aria-labelledby="title description">
+  <title id="title">Three featured project workflows</title>
+  <desc id="description">AutoHealOps observes telemetry, flags anomalies, and stages a recovery review. FlowNova AI builds, publishes, and runs workflows. SecureRxChain registers, scans, and verifies batches.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#090f21"/>
+      <stop offset="1" stop-color="#191632"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#d8b4fe"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a5b4fc" stroke-opacity=".08"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="332" rx="24"/></clipPath>
+    <path id="track" d="M280 25H938"/>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .kicker { font-family: Consolas, monospace; font-weight: 700; letter-spacing: .12em; }
+    .track { fill: none; stroke: currentColor; stroke-linecap: round; }
+    .signal { stroke-dasharray: 90 670; animation: travel 5.6s linear infinite; }
+    .second { animation-delay: -1.8s; }
+    .third { animation-delay: -3.6s; }
+    .node { fill: #121b32; stroke: currentColor; stroke-opacity: .6; }
+    .step { fill: #eef3ff; font-size: 22px; font-weight: 650; text-anchor: middle; }
+    @keyframes travel { from { stroke-dashoffset: 90; } to { stroke-dashoffset: -670; } }
+    @media (prefers-reduced-motion: reduce) { .signal { display: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="332" fill="url(#background)"/>
+    <rect width="1000" height="332" fill="url(#grid)"/>
+    <path d="M26 1H974" stroke="url(#accent)" stroke-width="2"/>
+    <text x="34" y="49" fill="#a5f3fc" font-size="20" class="kicker">HOW THE PROJECTS WORK</text>
+    <g transform="translate(0 105)" color="#67e8f9">
+      <rect x="34" y="-30" width="932" height="60" rx="14" fill="#101a2e" stroke="#284559"/>
+      <circle cx="55" cy="0" r="5" fill="currentColor"/>
+      <text x="71" y="8" fill="currentColor" font-size="26" font-weight="700">AutoHealOps</text>
+      <use href="#track" class="track" stroke-width="2" opacity=".32"/>
+      <use href="#track" class="track signal" stroke-width="3.5"/>
+      <rect x="280" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="513" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="746" y="-20" width="192" height="40" rx="9" class="node"/>
+      <text x="369" y="7" class="step">Read telemetry</text>
+      <text x="602" y="7" class="step">Flag anomaly</text>
+      <text x="842" y="7" class="step">Review recovery</text>
+    </g>
+    <g transform="translate(0 188)" color="#a5b4fc">
+      <rect x="34" y="-30" width="932" height="60" rx="14" fill="#111a32" stroke="#353d68"/>
+      <circle cx="55" cy="0" r="5" fill="currentColor"/>
+      <text x="71" y="8" fill="currentColor" font-size="26" font-weight="700">FlowNova AI</text>
+      <use href="#track" class="track" stroke-width="2" opacity=".32"/>
+      <use href="#track" class="track signal second" stroke-width="3.5"/>
+      <rect x="280" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="513" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="746" y="-20" width="192" height="40" rx="9" class="node"/>
+      <text x="369" y="7" class="step">Build workflow</text>
+      <text x="602" y="7" class="step">Publish version</text>
+      <text x="842" y="7" class="step">Run &amp; inspect</text>
+    </g>
+    <g transform="translate(0 271)" color="#d8b4fe">
+      <rect x="34" y="-30" width="932" height="60" rx="14" fill="#161a34" stroke="#433a67"/>
+      <circle cx="55" cy="0" r="5" fill="currentColor"/>
+      <text x="71" y="8" fill="currentColor" font-size="26" font-weight="700">SecureRxChain</text>
+      <use href="#track" class="track" stroke-width="2" opacity=".32"/>
+      <use href="#track" class="track signal third" stroke-width="3.5"/>
+      <rect x="280" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="513" y="-20" width="178" height="40" rx="9" class="node"/>
+      <rect x="746" y="-20" width="192" height="40" rx="9" class="node"/>
+      <text x="369" y="7" class="step">Register batch</text>
+      <text x="602" y="7" class="step">Scan QR code</text>
+      <text x="842" y="7" class="step">Verify batch</text>
+    </g>
+  </g>
+</svg>

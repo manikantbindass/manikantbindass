@@ -11,6 +11,7 @@
   <a href="#ai-radar">AI Radar</a> &nbsp; / &nbsp;
   <a href="#explore">Explore</a> &nbsp; / &nbsp;
   <a href="#connect">Connect</a>
+  &nbsp; / &nbsp; <a href="#research">Research</a>
 </p>
 
 <p align="center">
@@ -30,6 +31,12 @@
 </p>
 
 <p align="center"><a href="https://manikantbindass.github.io/manikantbindass/"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/manikantbindass?tab=repositories">Browse my repositories ↗</a></p>
+
+<p align="center">
+  <a href="https://manikantbindass.github.io/manikantbindass/">
+    <img src="assets/portfolio-preview.svg" width="100%" alt="Open Manikant Kumar’s portfolio. Explore his engineering focus, projects, and profile assistant." />
+  </a>
+</p>
 
 <a id="about"></a>
 
@@ -73,6 +80,10 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 <a id="featured-work"></a>
 
 ## Featured work
+
+<p align="center">
+  <img src="assets/project-workflows.svg" width="100%" alt="Animated project workflows. AutoHealOps: observe telemetry, flag an anomaly, and review recovery. FlowNova AI: build, publish, and run a workflow. SecureRxChain: register a batch, scan its QR code, and verify it." />
+</p>
 
 <table>
 <tr>
@@ -316,6 +327,29 @@ Have an idea involving **AI applications, backend systems, smart contracts, or s
 <summary><strong>More places to find me</strong></summary>
 
 [Instagram](https://instagram.com/manikantbindass) · [Facebook](https://fb.com/manikantbindass) · [Dribbble](https://dribbble.com/manikantbindass) · [CodeChef](https://www.codechef.com/users/manikantbindass) · [Codeforces](https://codeforces.com/profile/manikantbindass) · [Topcoder](https://www.topcoder.com/members/manikantbindass) · [Stack Overflow](https://stackoverflow.com/users/manikantbindass)
+
+</details>
+
+<a id="research"></a>
+
+## Research spotlight · Attention Is All You Need
+
+**Ashish Vaswani et al. · NeurIPS 2017** · [Read the paper](https://arxiv.org/abs/1706.03762) · [PDF](https://arxiv.org/pdf/1706.03762)
+
+The paper introduced the **Transformer** for sequence transduction. Self-attention lets each input position build a representation from other positions in the same sequence. Multi-head attention learns several sets of projections for these interactions, and positional encodings give the model information about token order.
+
+<p align="center">
+  <img src="assets/self-attention.svg" width="100%" alt="Self-attention for the query moved in The robot moved. Example weights for The, robot, and moved are 0.10, 0.60, and 0.30. Their value vectors are combined using those weights." />
+</p>
+
+In this example, **moved** supplies the query. Each query–key dot product is scaled by the square root of the key dimension, then softmax turns the scores into weights. The output is the weighted sum of the corresponding value vectors. In the illustration, **robot** gets the highest weight.
+
+<details>
+<summary><strong>Three places to start in the paper</strong></summary>
+
+- **Section 3.2** covers scaled dot-product attention and how multiple heads combine different projections. [Read Section 3.2](https://arxiv.org/html/1706.03762#S3.SS2)
+- **Section 3.5** shows how the original model adds sinusoidal position information to token embeddings. [Read Section 3.5](https://arxiv.org/html/1706.03762#S3.SS5)
+- **Section 4** compares self-attention with recurrent and convolutional layers, including parallelism, compute cost, and the path between positions. [Read Section 4](https://arxiv.org/html/1706.03762#S4)
 
 </details>
 

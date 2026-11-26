@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="232" viewBox="0 0 1000 232" role="img" aria-labelledby="title description">
+  <title id="title">Explore Manikant Kumar’s portfolio</title>
+  <desc id="description">An animated portfolio preview connects Engineering, Explore, and the Profile Assistant.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#090e1f"/>
+      <stop offset="1" stop-color="#1b1737"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#8177ff" stop-opacity=".29"/>
+      <stop offset="1" stop-color="#8177ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a5b4fc" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="232" rx="24"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .label { font-family: Consolas, monospace; font-weight: 700; letter-spacing: .08em; }
+    .signal { stroke-dasharray: .15 .85; animation: travel 5.2s linear infinite; }
+    .destination { animation: glow 5.2s ease-in-out infinite; }
+    .explore { animation-delay: .9s; }
+    .assistant { animation-delay: 1.8s; }
+    @keyframes travel { from { stroke-dashoffset: 1.15; } to { stroke-dashoffset: .15; } }
+    @keyframes glow { 0%, 65%, 100% { opacity: .22; } 22% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .signal { display: none; }
+      .destination { animation: none; opacity: .65; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="232" fill="url(#background)"/>
+    <rect width="1000" height="232" fill="url(#grid)"/>
+    <ellipse cx="786" cy="119" rx="318" ry="168" fill="url(#halo)"/>
+    <path d="M26 1H974" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M40 49h28" stroke="#67e8f9" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="55" fill="#a5f3fc" font-size="18" class="label">MANIKANT KUMAR</text>
+    <text x="39" y="114" fill="#f8fafc" font-size="54" font-weight="750" letter-spacing="-1.8">Portfolio</text>
+    <text x="42" y="151" fill="#c6d2e9" font-size="21">Engineering, projects &amp; the profile assistant</text>
+    <rect x="42" y="174" width="188" height="38" rx="10" fill="#162b40" stroke="#4797b0"/>
+    <text x="58" y="199" fill="#b6f5fe" font-size="19" font-weight="700">Open portfolio ↗</text>
+    <rect x="548" y="33" width="409" height="167" rx="17" fill="#111a31" stroke="#575d89"/>
+    <path d="M548 68H957" stroke="#404766"/>
+    <circle cx="570" cy="51" r="4" fill="#67e8f9"/>
+    <circle cx="584" cy="51" r="4" fill="#a5b4fc"/>
+    <circle cx="598" cy="51" r="4" fill="#dbb7fc"/>
+    <text x="638" y="57" fill="#b9c8e3" font-size="16" class="label">manikantbindass.github.io</text>
+    <path d="M594 146H912" fill="none" stroke="#48516f" stroke-width="2" stroke-linecap="round"/>
+    <path d="M594 146H912" pathLength="1" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" class="signal"/>
+    <g text-anchor="middle" font-size="17" font-weight="650">
+      <circle cx="612" cy="146" r="13" fill="#67e8f9" class="destination"/>
+      <circle cx="612" cy="146" r="6" fill="#67e8f9"/>
+      <text x="612" y="181" fill="#d7f7ff">Engineering</text>
+      <circle cx="746" cy="146" r="13" fill="#a5b4fc" class="destination explore"/>
+      <circle cx="746" cy="146" r="6" fill="#a5b4fc"/>
+      <text x="746" y="181" fill="#e5e9ff">Explore</text>
+      <circle cx="881" cy="146" r="13" fill="#d8b4fe" class="destination assistant"/>
+      <circle cx="881" cy="146" r="6" fill="#d8b4fe"/>
+      <text x="881" y="181" fill="#f1e5ff">Profile assistant</text>
+    </g>
+  </g>
+</svg>
