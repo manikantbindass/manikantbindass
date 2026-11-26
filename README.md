@@ -207,7 +207,7 @@ C, Go, HTML, CSS, Express, Three.js, NumPy, Pandas, pylab, Nginx, Bash, Jenkins,
 A curated timeline of the releases shaping how I think about AI engineering.
 
 <p align="center">
-  <img src="assets/ai-radar-timeline.svg" width="100%" alt="Animated AI timeline with six flip cards, from GPT-3 in 2020 to tool-using agents in 2026. October and November highlights include GPT-6.2 Astra and Sol, Claude Fable 5.2 and Mythos 5.2, and Gemini 4 Neon and Carbon." />
+  <img src="assets/ai-radar-jewel.svg" width="100%" alt="Animated AI timeline with six flip cards, from GPT-3 in 2020 to tool-using agents in 2026. October and November highlights include GPT-6.2 Astra and Sol, Claude Fable 5.2 and Mythos 5.2, and Gemini 4 Neon and Carbon." />
 </p>
 
 ### Models I’m tracking

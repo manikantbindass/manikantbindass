@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="905" viewBox="0 0 1200 905" role="img" aria-labelledby="title desc">
+  <title id="title">AI model timeline — 2020 to November 2026</title>
+  <desc id="desc">Six cards flip in chronological order to explain milestones from GPT-3 and few-shot learning through multimodal assistants, reasoning models and tool-using agents. The October and November 2026 release highlights stay visible below the cards.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#120b16"/>
+      <stop offset=".53" stop-color="#100d15"/>
+      <stop offset="1" stop-color="#080f0e"/>
+    </linearGradient>
+    <radialGradient id="wine-light">
+      <stop stop-color="#752455" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#752455" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jade-light">
+      <stop stop-color="#246957" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#246957" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="amber-glass" x2="1" y2="1">
+      <stop stop-color="#3a2b1d"/>
+      <stop offset="1" stop-color="#1c1512"/>
+    </linearGradient>
+    <linearGradient id="emerald-glass" x2="1" y2="1">
+      <stop stop-color="#203e33"/>
+      <stop offset="1" stop-color="#111c19"/>
+    </linearGradient>
+    <linearGradient id="amethyst-glass" x2="1" y2="1">
+      <stop stop-color="#372849"/>
+      <stop offset="1" stop-color="#21172c"/>
+    </linearGradient>
+    <linearGradient id="sapphire-glass" x2="1" y2="1">
+      <stop stop-color="#263e55"/>
+      <stop offset="1" stop-color="#151f31"/>
+    </linearGradient>
+    <linearGradient id="copper-glass" x2="1" y2="1">
+      <stop stop-color="#452a26"/>
+      <stop offset="1" stop-color="#241716"/>
+    </linearGradient>
+    <linearGradient id="rose-glass" x2="1" y2="1">
+      <stop stop-color="#46283b"/>
+      <stop offset="1" stop-color="#261724"/>
+    </linearGradient>
+    <linearGradient id="october-glass" x2="1" y2="1">
+      <stop stop-color="#372725"/>
+      <stop offset=".65" stop-color="#211822"/>
+      <stop offset="1" stop-color="#1e1721"/>
+    </linearGradient>
+    <linearGradient id="november-glass" x2="1" y2="1">
+      <stop stop-color="#263a32"/>
+      <stop offset=".64" stop-color="#1b2724"/>
+      <stop offset="1" stop-color="#191a27"/>
+    </linearGradient>
+    <linearGradient id="rail-accent" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="1156" y2="0">
+      <stop stop-color="#e8be89"/>
+      <stop offset=".54" stop-color="#83c9ae"/>
+      <stop offset="1" stop-color="#d4aaeb"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#eadac8" stroke-opacity=".041"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="905" rx="27"/></clipPath>
+    <g id="card-frame">
+      <rect width="360" height="156" rx="17" stroke="currentColor" stroke-opacity=".32"/>
+      <rect x=".5" y=".5" width="359" height="155" rx="16.5" fill="currentColor" opacity=".045"/>
+      <path d="M17 1H343" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-linecap="round"/>
+    </g>
+    <path id="rail" d="M44 516H1156" pathLength="1"/>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .mono { font-family: Consolas, monospace; }
+    .section-label { font-size: 14px; letter-spacing: .13em; font-weight: 700; }
+    .year { font-size: 20px; font-weight: 700; }
+    .card-title { fill: #fff5ee; font-size: 24px; font-weight: 720; }
+    .back-title { font-size: 21px; }
+    .card-copy { fill: #e2d7d8; font-size: 16.5px; }
+    .card-meta { fill: #cbbfc6; font-size: 15px; }
+    .back-label { font-size: 13px; font-weight: 700; letter-spacing: .09em; }
+    .strip-edge { stroke: #eddfd1; stroke-opacity: .14; stroke-linecap: round; }
+    .provider { font-size: 13px; letter-spacing: .11em; font-weight: 650; }
+    .release-title { font-size: 22px; fill: #f5ede7; font-weight: 710; }
+    .release-meta { font-size: 15px; fill: #d4cad0; }
+    .face { transform-box: fill-box; transform-origin: center; }
+    .front { animation: flip-front 30s ease-in-out var(--phase) infinite; }
+    .back { opacity: 0; animation: flip-back 30s ease-in-out var(--phase) infinite; }
+    .rail-signal { stroke-dasharray: .085 .915; animation: travel 10s linear infinite; }
+    @keyframes flip-front {
+      0%, 4%, 19%, 100% { transform: scaleX(1) skewY(0deg); opacity: 1; }
+      6% { transform: scaleX(.025) skewY(-7deg); opacity: 1; }
+      6.05%, 16.95% { transform: scaleX(.025) skewY(-7deg); opacity: 0; }
+      17% { transform: scaleX(.025) skewY(7deg); opacity: 1; }
+    }
+    @keyframes flip-back {
+      0%, 6% { transform: scaleX(.025) skewY(7deg); opacity: 0; }
+      6.05% { transform: scaleX(.025) skewY(7deg); opacity: 1; }
+      8%, 15% { transform: scaleX(1) skewY(0deg); opacity: 1; }
+      16.95% { transform: scaleX(.025) skewY(-7deg); opacity: 1; }
+      17%, 100% { transform: scaleX(.025) skewY(-7deg); opacity: 0; }
+    }
+    @keyframes travel { from { stroke-dashoffset: -.09; } to { stroke-dashoffset: -1.09; } }
+    @media (prefers-reduced-motion: reduce) {
+      .face, .rail-signal { animation: none; }
+      .back, .rail-signal { display: none; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="905" fill="url(#background)"/>
+    <ellipse cx="134" cy="137" rx="560" ry="460" fill="url(#wine-light)"/>
+    <ellipse cx="1107" cy="526" rx="555" ry="525" fill="url(#jade-light)"/>
+    <rect width="1200" height="905" fill="url(#grid)"/>
+    <rect x=".75" y=".75" width="1198.5" height="903.5" rx="26" fill="none" stroke="url(#rail-accent)" stroke-opacity=".22"/>
+    <text x="43" y="44" fill="#ecd4ab" class="section-label mono">THE EVOLUTION OF INTELLIGENCE</text>
+    <text x="41" y="88" fill="#fbf2e7" font-size="38" font-weight="750" letter-spacing="-.63">From language models to working agents.</text>
+    <text x="43" y="121" fill="#cfc1cd" font-size="17">Selected public milestones · Checked 27 November 2026</text>
+    <g transform="translate(42 159)" color="#f5d58e" class="milestone" style="--phase:0s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#amber-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2020</text>
+        <text x="22" y="74" class="card-title">GPT-3</text>
+        <text x="22" y="105" class="card-copy">Language models at scale</text>
+        <text x="22" y="129" class="card-meta">Few-shot learning</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M0 5h28M4 13h24M8 21h20"/><circle cx="1" cy="5" r="2" fill="currentColor"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#amber-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2020</text>
+        <text x="22" y="75" class="card-title back-title">Few-shot learning</text>
+        <text x="22" y="104" class="card-copy">Examples in the prompt show the</text>
+        <text x="22" y="126" class="card-copy">model how to approach a task.</text>
+      </g>
+    </g>
+    <g transform="translate(420 159)" color="#a2eac7" class="milestone" style="--phase:5s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#emerald-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2022</text>
+        <text x="22" y="74" class="card-title">ChatGPT</text>
+        <text x="22" y="105" class="card-copy">Conversational AI goes mainstream</text>
+        <text x="22" y="129" class="card-meta">A new interface for software</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 2h25v16H13l-6 5v-5H2z"/><path d="M8 10h13"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#emerald-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2022</text>
+        <text x="22" y="75" class="card-title back-title">A conversational interface</text>
+        <text x="22" y="104" class="card-copy">A chat keeps earlier turns in view</text>
+        <text x="22" y="126" class="card-copy">so you can ask follow-up questions.</text>
+      </g>
+    </g>
+    <g transform="translate(798 159)" color="#dfbdff" class="milestone" style="--phase:10s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#amethyst-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2023</text>
+        <text x="22" y="74" class="card-title">GPT-4</text>
+        <text x="22" y="105" class="card-copy">More capable reasoning</text>
+        <text x="22" y="129" class="card-meta">Multimodal input capabilities</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="2" width="28" height="21" rx="5"/><circle cx="9" cy="9" r="2"/><path d="m6 19 7-6 5 3 6-5"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#amethyst-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2023</text>
+        <text x="22" y="75" class="card-title back-title">Multimodal input</text>
+        <text x="22" y="104" class="card-copy">GPT-4 can take images alongside</text>
+        <text x="22" y="126" class="card-copy">text and generate a text response.</text>
+      </g>
+    </g>
+    <g transform="translate(42 333)" color="#afceff" class="milestone" style="--phase:15s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#sapphire-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2024</text>
+        <text x="22" y="74" class="card-title">GPT-4o · Claude 3</text>
+        <text x="22" y="105" class="card-copy">Multimodal assistants</text>
+        <text x="22" y="129" class="card-meta">Text, vision and richer interaction</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M0 13C7 2 22 2 30 13 22 24 7 24 0 13Z"/><circle cx="15" cy="13" r="4"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#sapphire-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2024</text>
+        <text x="22" y="75" class="card-title back-title">Vision in assistants</text>
+        <text x="22" y="104" class="card-copy">Image understanding made charts,</text>
+        <text x="22" y="126" class="card-copy">documents and photos part of a chat.</text>
+      </g>
+    </g>
+    <g transform="translate(420 333)" color="#ffc29f" class="milestone" style="--phase:20s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#copper-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2025</text>
+        <text x="22" y="74" class="card-title">DeepSeek-R1 · GPT-5</text>
+        <text x="22" y="105" class="card-copy">Reasoning takes center stage</text>
+        <text x="22" y="129" class="card-meta">Open weights and unified systems</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="3" cy="13" r="2.5"/><circle cx="26" cy="3" r="2.5"/><circle cx="26" cy="22" r="2.5"/><path d="M6 13h9l8-10m-8 10 8 9"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#copper-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2025</text>
+        <text x="22" y="75" class="card-title back-title">Open and unified reasoning</text>
+        <text x="22" y="104" class="card-copy">DeepSeek-R1 released open weights.</text>
+        <text x="22" y="126" class="card-copy">GPT-5 combined fast replies and reasoning.</text>
+      </g>
+    </g>
+    <g transform="translate(798 333)" color="#f5b5cc" class="milestone" style="--phase:25s">
+      <g class="face front">
+        <use href="#card-frame" fill="url(#rose-glass)"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="37" y="34" fill="currentColor" class="year mono">2026</text>
+        <text x="22" y="74" class="card-title">Agents + tool use</text>
+        <text x="22" y="105" class="card-copy">From responses to workflows</text>
+        <text x="22" y="129" class="card-meta">Coding, computer use and research</text>
+        <g transform="translate(308 18)" fill="none" stroke="currentColor" stroke-width="1.35" opacity=".74" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="15" cy="13" r="4"/><path d="M15 2v6m0 10v6M4 13h6m10 0h6"/><circle cx="15" cy="2" r="2"/><circle cx="15" cy="24" r="2"/><circle cx="4" cy="13" r="2"/><circle cx="26" cy="13" r="2"/>
+        </g>
+      </g>
+      <g class="face back">
+        <use href="#card-frame" fill="url(#rose-glass)"/>
+        <rect x="1" y="1" width="358" height="154" rx="16" fill="currentColor" opacity=".078"/>
+        <rect x="4" y="4" width="352" height="148" rx="13" fill="none" stroke="currentColor" stroke-opacity=".15"/>
+        <circle cx="25" cy="28" r="3.2" fill="currentColor"/>
+        <text x="36" y="33" fill="currentColor" class="back-label mono">WHAT CHANGED</text>
+        <text x="337" y="33" fill="currentColor" text-anchor="end" class="back-label mono">2026</text>
+        <text x="22" y="75" class="card-title back-title">Tools in the loop</text>
+        <text x="22" y="104" class="card-copy">An agent can call tools and use their</text>
+        <text x="22" y="126" class="card-copy">results to decide what to do next.</text>
+      </g>
+    </g>
+    <g fill="none" stroke="url(#rail-accent)">
+      <use href="#rail" stroke-opacity=".24"/>
+      <use href="#rail" stroke-width="2" stroke-linecap="round" class="rail-signal"/>
+    </g>
+    <g transform="translate(42 541)">
+      <rect width="1116" height="135" rx="19" fill="url(#october-glass)" stroke="#d5a78f" stroke-opacity=".26"/>
+      <path d="M19 1H1095" class="strip-edge"/>
+      <text x="20" y="29" fill="#f1c6a5" class="section-label mono">OCTOBER 2026 / RELEASE HIGHLIGHTS</text>
+      <path d="M20 41H1096M371 54V115M748 54V115" stroke="#91a8d0" stroke-opacity=".15"/>
+      <g transform="translate(20 0)">
+        <text x="0" y="64" fill="#f1d196" class="provider mono">OPENAI</text>
+        <text x="0" y="89" class="release-title">GPT-6.1 Terra</text>
+        <text x="0" y="112" class="release-meta">26 Oct · API / Work / Codex</text>
+      </g>
+      <g transform="translate(398 0)">
+        <text x="0" y="64" fill="#d6bdf3" class="provider mono">ANTHROPIC</text>
+        <text x="0" y="89" class="release-title">Claude 5.5 family</text>
+        <text x="0" y="112" class="release-meta">Opus · Sonnet · Haiku</text>
+      </g>
+      <g transform="translate(776 0)">
+        <text x="0" y="64" fill="#9be3c8" class="provider mono">GOOGLE DEEPMIND</text>
+        <text x="0" y="89" class="release-title">Gemini 4 Argon / Carbon</text>
+        <text x="0" y="112" class="release-meta">Argon GA · Carbon initially restricted</text>
+      </g>
+    </g>
+    <g transform="translate(42 705)">
+      <rect width="1116" height="135" rx="19" fill="url(#november-glass)" stroke="#9ed2b9" stroke-opacity=".26"/>
+      <path d="M19 1H1095" class="strip-edge"/>
+      <text x="20" y="29" fill="#a9e2cd" class="section-label mono">NOVEMBER 2026 / RELEASE HIGHLIGHTS</text>
+      <path d="M20 41H1096M371 54V115M748 54V115" stroke="#91a8d0" stroke-opacity=".15"/>
+      <g transform="translate(20 0)">
+        <text x="0" y="64" fill="#f1d196" class="provider mono">OPENAI</text>
+        <text x="0" y="89" class="release-title">GPT-6.2 Astra / Sol</text>
+        <text x="0" y="112" class="release-meta">17 Nov · OpenAI API</text>
+      </g>
+      <g transform="translate(398 0)">
+        <text x="0" y="64" fill="#d6bdf3" class="provider mono">ANTHROPIC</text>
+        <text x="0" y="89" class="release-title">Claude Fable / Mythos 5.2</text>
+        <text x="0" y="112" class="release-meta">9 Nov · Mythos requires vetted access</text>
+      </g>
+      <g transform="translate(776 0)">
+        <text x="0" y="64" fill="#9be3c8" class="provider mono">GOOGLE DEEPMIND</text>
+        <text x="0" y="89" class="release-title">Gemini 4 Neon / Carbon</text>
+        <text x="0" y="112" class="release-meta">18 / 10 Nov · Both GA on the Gemini API</text>
+      </g>
+    </g>
+  </g>
+</svg>
