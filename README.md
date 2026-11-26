@@ -4,6 +4,12 @@
 </p>
 
 <p align="center">
+  <a href="https://portfolio-ten-omega-4ibkho6f7u.vercel.app/">
+    <img src="assets/portfolio-link.svg" width="100%" alt="Open Manikant Kumar’s portfolio on Vercel. AI engineering, full stack, and blockchain." />
+  </a>
+</p>
+
+<p align="center">
   <a href="#about">About</a> &nbsp; / &nbsp;
   <a href="#featured-work">Featured work</a> &nbsp; / &nbsp;
   <a href="#engineering">Engineering</a> &nbsp; / &nbsp;
