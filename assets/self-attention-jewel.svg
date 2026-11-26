@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title description">
+  <title id="title">Self-attention for one query</title>
+  <desc id="description">In the example The robot moved, the query for moved assigns illustrative weights of 0.10 to The, 0.60 to robot and 0.30 to moved. The value vectors are combined with these weights to produce a context vector.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#160d18"/>
+      <stop offset=".57" stop-color="#111019"/>
+      <stop offset="1" stop-color="#0a1112"/>
+    </linearGradient>
+    <radialGradient id="plum-glow">
+      <stop stop-color="#713259" stop-opacity=".37"/>
+      <stop offset="1" stop-color="#713259" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jade-glow">
+      <stop stop-color="#2e6757" stop-opacity=".29"/>
+      <stop offset="1" stop-color="#2e6757" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x2="1" y2="1">
+      <stop stop-color="#e3ba98"/>
+      <stop offset=".52" stop-color="#7c687f"/>
+      <stop offset="1" stop-color="#92ceb9"/>
+    </linearGradient>
+    <linearGradient id="amber-glass" x2="1" y2="1">
+      <stop stop-color="#392a22"/>
+      <stop offset="1" stop-color="#231a20"/>
+    </linearGradient>
+    <linearGradient id="emerald-glass" x2="1" y2="1">
+      <stop stop-color="#294338"/>
+      <stop offset="1" stop-color="#192824"/>
+    </linearGradient>
+    <linearGradient id="copper-glass" x2="1" y2="1">
+      <stop stop-color="#472c2a"/>
+      <stop offset="1" stop-color="#2d1d22"/>
+    </linearGradient>
+    <linearGradient id="amethyst-glass" x2="1" y2="1">
+      <stop stop-color="#3b2c48"/>
+      <stop offset="1" stop-color="#281e37"/>
+    </linearGradient>
+    <linearGradient id="sapphire-glass" x2="1" y2="1">
+      <stop stop-color="#293b53"/>
+      <stop offset="1" stop-color="#1b2639"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#efdece" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="595" y="219" width="207" height="45" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="400" rx="25"/></clipPath>
+    <path id="the-value" d="M610 174C700 174 714 241 786 241" pathLength="1"/>
+    <path id="robot-value" d="M610 241H786" pathLength="1"/>
+    <path id="moved-value" d="M610 308C700 308 714 241 786 241" pathLength="1"/>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .stage { font: 700 17px Consolas, monospace; letter-spacing: .085em; text-anchor: middle; }
+    .token { font-size: 28px; font-weight: 700; }
+    .weight { font: 700 29px Consolas, monospace; letter-spacing: .045em; text-anchor: end; }
+    .panel { stroke: currentColor; stroke-opacity: .57; }
+    .edge { fill: none; stroke: currentColor; stroke-opacity: .35; stroke-linecap: round; }
+    .flow { fill: none; stroke: currentColor; stroke-linecap: round; }
+    .signal { stroke-dasharray: .065 .935; animation: carry 4.6s linear infinite; }
+    .middle { animation-delay: -.65s; }
+    .lower { animation-delay: -1.3s; }
+    @keyframes carry { from { stroke-dashoffset: .065; } to { stroke-dashoffset: -.935; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; display: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="400" fill="url(#background)"/>
+    <ellipse cx="117" cy="30" rx="434" ry="249" fill="url(#plum-glow)"/>
+    <ellipse cx="948" cy="282" rx="431" ry="270" fill="url(#jade-glow)"/>
+    <rect width="1000" height="400" fill="url(#grid)"/>
+    <rect x=".75" y=".75" width="998.5" height="398.5" rx="24" fill="none" stroke="url(#rim)" stroke-opacity=".29"/>
+
+    <text x="36" y="56" fill="#fff5ea" font-size="38" font-weight="750" letter-spacing="-.65">Self-attention, one query</text>
+    <text x="38" y="88" fill="#d5c8cc" font-size="22">Example sequence: <tspan fill="#f2d4a4" font-weight="650">“The robot moved”</tspan></text>
+    <path d="M36 108H964" stroke="#bba9bc" stroke-opacity=".24"/>
+    <text x="130" y="134" fill="#f2cd93" class="stage">QUERY TOKEN</text>
+    <text x="489" y="134" fill="#e2d1ea" class="stage">KEYS &amp; VALUES</text>
+    <text x="875" y="134" fill="#bdd5fc" class="stage">OUTPUT</text>
+
+    <g fill="none" stroke="#e7c8a3" stroke-width="1.65" stroke-dasharray="4 6" stroke-opacity=".43">
+      <path d="M221 241C294 241 305 174 368 174"/>
+      <path d="M221 241H368"/>
+      <path d="M221 241C294 241 305 308 368 308"/>
+    </g>
+    <g class="flow">
+      <use href="#robot-value" color="#e89075" stroke-width="13" opacity=".42" filter="url(#glow)"/>
+      <use href="#the-value" color="#91dbb5" stroke-width="1.5" opacity=".82"/>
+      <use href="#robot-value" color="#efaf97" stroke-width="9" opacity=".78"/>
+      <use href="#moved-value" color="#bc9cea" stroke-width="4.5" opacity=".79"/>
+      <use href="#the-value" color="#d2fbe5" stroke-width="3.5" class="signal"/>
+      <use href="#robot-value" color="#fff1e2" stroke-width="5.5" class="signal middle"/>
+      <use href="#moved-value" color="#f3e3ff" stroke-width="3.7" class="signal lower"/>
+    </g>
+
+    <g color="#efc98d">
+      <rect x="40" y="208" width="181" height="66" rx="14" fill="url(#amber-glass)" class="panel"/>
+      <path d="M53 209H139" class="edge"/>
+      <text x="130" y="252" text-anchor="middle" fill="#fff0d4" font-size="32" font-weight="740">moved</text>
+    </g>
+
+    <g color="#a7ebc7">
+      <rect x="368" y="149" width="242" height="50" rx="13" fill="url(#emerald-glass)" class="panel"/>
+      <path d="M383 150H466" class="edge"/>
+      <text x="390" y="183" fill="#f3fbef" class="token">The</text>
+      <text x="591" y="184" fill="#a7ebc7" class="weight">0.10</text>
+    </g>
+    <g color="#ffc2a3">
+      <rect x="368" y="216" width="242" height="50" rx="13" fill="url(#copper-glass)" class="panel"/>
+      <path d="M383 217H466" class="edge"/>
+      <text x="390" y="250" fill="#fff2eb" class="token">robot</text>
+      <text x="591" y="251" fill="#ffc2a3" class="weight">0.60</text>
+    </g>
+    <g color="#dfbfff">
+      <rect x="368" y="283" width="242" height="50" rx="13" fill="url(#amethyst-glass)" class="panel"/>
+      <path d="M383 284H466" class="edge"/>
+      <text x="390" y="317" fill="#fbf2ff" class="token">moved</text>
+      <text x="591" y="318" fill="#dfbfff" class="weight">0.30</text>
+    </g>
+
+    <g color="#adcbfb" text-anchor="middle">
+      <rect x="786" y="206" width="178" height="70" rx="14" fill="url(#sapphire-glass)" class="panel"/>
+      <path d="M801 207H884" class="edge"/>
+      <text x="875" y="238" fill="#f2f7ff" font-size="27" font-weight="740">Context</text>
+      <text x="875" y="260" fill="#c5d6ee" font-size="17.5">weighted sum</text>
+    </g>
+
+    <path d="M36 352H964" stroke="#bba9bc" stroke-opacity=".19"/>
+    <text x="38" y="378" fill="#d3c8d0" font-size="18"><tspan fill="#f0d6b0" font-weight="650">Illustrative weights for one head.</tspan> Thicker paths represent larger weights.</text>
+  </g>
+</svg>

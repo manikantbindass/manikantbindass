@@ -354,7 +354,7 @@ Have an idea involving **AI applications, backend systems, smart contracts, or s
 The paper introduced the **Transformer** for sequence transduction. Self-attention lets each input position build a representation from other positions in the same sequence. Multi-head attention learns several sets of projections for these interactions, and positional encodings give the model information about token order.
 
 <p align="center">
-  <img src="assets/self-attention.svg" width="100%" alt="Self-attention for the query moved in The robot moved. Example weights for The, robot, and moved are 0.10, 0.60, and 0.30. Their value vectors are combined using those weights." />
+  <img src="assets/self-attention-jewel.svg" width="100%" alt="Self-attention for the query moved in The robot moved. Example weights for The, robot, and moved are 0.10, 0.60, and 0.30. Their value vectors are combined using those weights." />
 </p>
 
 In this example, **moved** supplies the query. Each query–key dot product is scaled by the square root of the key dimension, then softmax turns the scores into weights. The output is the weighted sum of the corresponding value vectors. In the illustration, **robot** gets the highest weight.
