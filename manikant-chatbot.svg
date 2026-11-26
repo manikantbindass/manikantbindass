@@ -1,172 +1,155 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="420" viewBox="0 0 360 420" role="img" aria-labelledby="title desc">
   <title id="title">ManikantChatsU</title>
-  <desc id="desc">Animated AI x Web3 chatbot card for Manikant's profile README.</desc>
+  <desc id="desc">An animated glass robot and a Click me button that opens Manikant’s AI and Web3 profile assistant.</desc>
   <defs>
-    <linearGradient id="bg" x1="20" y1="14" x2="340" y2="402" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset="0.52" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#070b14"/>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#05070c"/>
+      <stop offset=".57" stop-color="#0b0c18"/>
+      <stop offset="1" stop-color="#050509"/>
     </linearGradient>
-    <linearGradient id="aurora" x1="32" y1="26" x2="316" y2="318" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.34" stop-color="#8b5cf6"/>
-      <stop offset="0.68" stop-color="#ff4fd8"/>
-      <stop offset="1" stop-color="#f59e0b"/>
+    <radialGradient id="teal-light">
+      <stop stop-color="#1bafbd" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#1bafbd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-light">
+      <stop stop-color="#8453e6" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#8453e6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose-light">
+      <stop stop-color="#ce478d" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#ce478d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x2="1" y2="1">
+      <stop stop-color="#e8ffff" stop-opacity=".15"/>
+      <stop offset=".54" stop-color="#c7c8f0" stop-opacity=".032"/>
+      <stop offset="1" stop-color="#e9a3f0" stop-opacity=".09"/>
     </linearGradient>
-    <linearGradient id="glass" x1="94" y1="82" x2="266" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#162033"/>
-      <stop offset="1" stop-color="#0b1120"/>
+    <linearGradient id="rim" x2="1" y2="1">
+      <stop stop-color="#92f9ee" stop-opacity=".68"/>
+      <stop offset=".49" stop-color="#b7b3eb" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#eaa6e0" stop-opacity=".56"/>
     </linearGradient>
-    <linearGradient id="beam" x1="118" y1="124" x2="242" y2="190" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="1" stop-color="#38bdf8"/>
+    <linearGradient id="chromatic" x2="1" y2="1">
+      <stop stop-color="#83f8e7"/>
+      <stop offset=".48" stop-color="#9cacf9"/>
+      <stop offset="1" stop-color="#ec9bdc"/>
     </linearGradient>
-    <filter id="softGlow" x="-35%" y="-35%" width="170%" height="170%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="cardGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="16" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.85 0 0 0 0 1 0 0 0 0.4 0" result="tint"/>
-      <feMerge>
-        <feMergeNode in="tint"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
-      <path d="M18 0H0V18" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <linearGradient id="shell" x2="1" y2="1">
+      <stop stop-color="#4d647d"/>
+      <stop offset=".33" stop-color="#23394f"/>
+      <stop offset=".72" stop-color="#15172b"/>
+      <stop offset="1" stop-color="#35233f"/>
+    </linearGradient>
+    <linearGradient id="visor" x2="0" y2="1">
+      <stop stop-color="#182e3f"/>
+      <stop offset=".48" stop-color="#0c1425"/>
+      <stop offset="1" stop-color="#100e1a"/>
+    </linearGradient>
+    <linearGradient id="button" x2="1" y2="1">
+      <stop stop-color="#73ebdb" stop-opacity=".24"/>
+      <stop offset=".58" stop-color="#9f92f4" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#d68bd6" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="shine">
+      <stop stop-color="#e8ffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#e8ffff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#e8ffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#b3cce9" stroke-opacity=".055"/>
     </pattern>
-    <style>
-      .float {
-        animation: float 5.4s ease-in-out infinite;
-      }
-
-      .spin {
-        animation: spin 10s linear infinite;
-        transform-origin: 180px 150px;
-      }
-
-      .spin.reverse {
-        animation-direction: reverse;
-        animation-duration: 14s;
-      }
-
-      .pulse {
-        animation: pulse 2.6s ease-in-out infinite;
-        transform-origin: 180px 150px;
-      }
-
-      .blink {
-        animation: blink 2.8s infinite;
-        transform-origin: 180px 156px;
-      }
-
-      .spark {
-        animation: spark 2.1s ease-in-out infinite;
-      }
-
-      .spark.two {
-        animation-delay: 0.7s;
-      }
-
-      .spark.three {
-        animation-delay: 1.3s;
-      }
-
-      .scan {
-        animation: scan 2.4s ease-in-out infinite;
-      }
-
-      .shine {
-        animation: shine 3.2s linear infinite;
-      }
-
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-7px); }
-      }
-
-      @keyframes spin {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
-
-      @keyframes pulse {
-        0%, 100% { opacity: 0.95; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.03); }
-      }
-
-      @keyframes blink {
-        0%, 43%, 48%, 100% { transform: scaleY(1); }
-        45% { transform: scaleY(0.1); }
-      }
-
-      @keyframes spark {
-        0%, 100% { opacity: 0.4; transform: scale(0.85); }
-        50% { opacity: 1; transform: scale(1.3); }
-      }
-
-      @keyframes scan {
-        0%, 100% { opacity: 0.25; transform: translateY(-10px); }
-        50% { opacity: 0.95; transform: translateY(12px); }
-      }
-
-      @keyframes shine {
-        from { transform: translateX(-210px); }
-        to { transform: translateX(210px); }
-      }
-    </style>
+    <filter id="bloom" x="-.6" y="-.6" width="2.2" height="2.2" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <clipPath id="card-clip"><rect width="360" height="420" rx="48"/></clipPath>
+    <clipPath id="visor-clip"><rect x="112" y="112" width="136" height="68" rx="28"/></clipPath>
+    <clipPath id="button-clip"><rect x="84" y="258" width="192" height="53" rx="26.5"/></clipPath>
+    <path id="orbit" pathLength="1" d="M69 149a111 98 0 1 1 222 0 111 98 0 1 1-222 0Z"/>
+    <path id="lower-orbit" pathLength="1" d="M62 181C77 212 152 208 218 181S314 111 299 86"/>
   </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .orbit-light { stroke-dasharray: .115 .885; animation: charge 9s linear infinite; }
+    .crossing-light { stroke-dasharray: .095 .905; animation: charge 6s linear -1.4s infinite; }
+    .robot { animation: float 5.8s ease-in-out infinite; }
+    .eyes { transform-box: fill-box; transform-origin: center; animation: blink 7.2s ease-in-out infinite; }
+    .scan { animation: scan 5.8s ease-in-out infinite; }
+    .button-sheen { animation: sheen 8.4s ease-in-out infinite; }
+    @keyframes charge { to { stroke-dashoffset: -1; } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes blink { 0%, 44%, 49%, 100% { transform: scaleY(1); } 46% { transform: scaleY(.13); } }
+    @keyframes scan { 0%, 20% { transform: translateY(-11px); opacity: 0; } 42% { opacity: .55; } 68%, 100% { transform: translateY(54px); opacity: 0; } }
+    @keyframes sheen { 0%, 16% { transform: translateX(-95px); } 58%, 100% { transform: translateX(235px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .robot, .eyes { animation: none; }
+      .orbit-light, .crossing-light, .scan, .button-sheen { display: none; }
+    }
+  </style>
 
-  <rect width="360" height="420" rx="34" fill="url(#bg)"/>
-  <rect x="22" y="22" width="316" height="376" rx="28" fill="url(#grid)" opacity="0.58"/>
+  <g clip-path="url(#card-clip)">
+    <rect width="360" height="420" fill="url(#background)"/>
+    <ellipse cx="47" cy="111" rx="178" ry="174" fill="url(#teal-light)"/>
+    <ellipse cx="302" cy="60" rx="163" ry="194" fill="url(#violet-light)"/>
+    <ellipse cx="279" cy="369" rx="186" ry="164" fill="url(#rose-light)"/>
+    <rect width="360" height="420" fill="url(#grid)"/>
+    <rect x=".75" y=".75" width="358.5" height="418.5" rx="47" fill="none" stroke="url(#rim)" opacity=".66"/>
+    <rect x="16" y="16" width="328" height="388" rx="37" fill="url(#glass)" stroke="url(#rim)" stroke-opacity=".72"/>
+    <path d="M43 25H121" stroke="#d0fff4" stroke-opacity=".19" stroke-linecap="round"/>
 
-  <g class="float">
-    <ellipse cx="92" cy="72" rx="62" ry="28" fill="#22d3ee" opacity="0.18" filter="url(#softGlow)"/>
-    <ellipse cx="282" cy="110" rx="74" ry="34" fill="#8b5cf6" opacity="0.16" filter="url(#softGlow)"/>
-    <ellipse cx="248" cy="318" rx="86" ry="38" fill="#ff4fd8" opacity="0.15" filter="url(#softGlow)"/>
+    <circle cx="180" cy="149" r="94" fill="#080b19" fill-opacity=".29" stroke="#becef9" stroke-opacity=".14" stroke-dasharray="2 5"/>
+    <g fill="none" stroke-linecap="round">
+      <use href="#orbit" stroke="url(#chromatic)" stroke-opacity=".36"/>
+      <use href="#orbit" stroke="url(#chromatic)" stroke-width="2.5" class="orbit-light"/>
+      <path d="M58 169C44 139 89 95 155 68S283 45 298 78" stroke="#b9adf9" stroke-opacity=".25"/>
+      <path d="M298 78L299 86" stroke="#b9adf9" stroke-opacity=".25"/>
+    </g>
+    <g fill="#c4eefa">
+      <circle cx="91" cy="90" r="2" opacity=".6"/>
+      <circle cx="260" cy="65" r="2.5" fill="#e9b5f7"/>
+      <circle cx="73" cy="181" r="3" fill="#a0f6e7"/>
+      <circle cx="288" cy="163" r="2.6" fill="#c7b4ff"/>
+    </g>
+
+    <g class="robot">
+      <ellipse cx="180" cy="210" rx="64" ry="13" fill="#82b1f4" opacity=".19" filter="url(#bloom)"/>
+      <path d="M173 94V74L185 61" fill="none" stroke="url(#chromatic)" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="188" cy="58" r="8" fill="#8ff6e6" filter="url(#bloom)" opacity=".62"/>
+      <circle cx="188" cy="58" r="4.5" fill="#c1fff3"/>
+      <rect x="80" y="128" width="25" height="38" rx="10" fill="url(#shell)" stroke="#acbeff" stroke-opacity=".43"/>
+      <rect x="255" y="128" width="25" height="38" rx="10" fill="url(#shell)" stroke="#e0a5ee" stroke-opacity=".43"/>
+      <rect x="91" y="87" width="178" height="122" rx="51" fill="#03050c" fill-opacity=".52" filter="url(#bloom)"/>
+      <rect x="91" y="87" width="178" height="117" rx="49" fill="url(#shell)" stroke="url(#chromatic)" stroke-width="1.6" stroke-opacity=".8"/>
+      <path d="M110 114C119 99 134 95 158 95H206" fill="none" stroke="#ecffff" stroke-opacity=".3" stroke-linecap="round"/>
+      <rect x="111" y="110" width="138" height="72" rx="29" fill="#050611" fill-opacity=".72" stroke="#e4d7ff" stroke-opacity=".27"/>
+      <rect x="112" y="112" width="136" height="68" rx="28" fill="url(#visor)"/>
+      <g clip-path="url(#visor-clip)">
+        <path d="M115 123C149 106 206 105 245 117" fill="none" stroke="#cbf8ff" stroke-width="12" opacity=".12" filter="url(#bloom)"/>
+        <rect x="114" y="124" width="132" height="3" fill="#80f5e4" opacity=".4" class="scan"/>
+      </g>
+      <g class="eyes">
+        <path d="M145 142h10m50 0h10" fill="none" stroke="#86faec" stroke-width="12" stroke-linecap="round" filter="url(#bloom)" opacity=".65"/>
+        <path d="M145 142h10m50 0h10" fill="none" stroke="#b0fff4" stroke-width="8" stroke-linecap="round"/>
+      </g>
+      <path d="M169 161Q180 169 191 161" fill="none" stroke="#efadeb" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M151 191H209" stroke="#d1baf9" stroke-opacity=".21" stroke-linecap="round"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <use href="#lower-orbit" stroke="url(#chromatic)" stroke-opacity=".34"/>
+      <use href="#lower-orbit" stroke="#a7faef" stroke-width="2.5" class="crossing-light"/>
+    </g>
+
+    <rect x="88" y="264" width="184" height="52" rx="26" fill="#040610" opacity=".67" filter="url(#bloom)"/>
+    <rect x="84" y="258" width="192" height="53" rx="26.5" fill="url(#button)" stroke="url(#chromatic)" stroke-opacity=".78"/>
+    <g clip-path="url(#button-clip)">
+      <path d="M100 258H151L132 311H81Z" fill="url(#shine)" class="button-sheen"/>
+    </g>
+    <path d="M108 259H169" stroke="#e2fff9" stroke-opacity=".48" stroke-linecap="round"/>
+    <text x="163" y="292" text-anchor="middle" fill="#f6feff" font-size="22" font-weight="700">Click me</text>
+    <circle cx="242" cy="284.5" r="15" fill="#e1d7ff" fill-opacity=".11" stroke="#ded7ff" stroke-opacity=".39"/>
+    <path d="m237 289 9-9m-7 0h7v7" fill="none" stroke="#f0e8ff" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="180" y="351" text-anchor="middle" fill="#f8f7ff" font-size="27" font-weight="750" letter-spacing="-.55">ManikantChatsU</text>
+    <text x="180" y="378" text-anchor="middle" fill="#c1d0e8" font-size="11.7" letter-spacing="1.68" font-weight="650">AI × WEB3 README GUIDE</text>
   </g>
-
-  <g filter="url(#cardGlow)">
-    <rect x="40" y="34" width="280" height="324" rx="28" fill="rgba(10,14,28,0.86)" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
-    <path class="shine" d="M58 40h46l58 318h-46z" fill="rgba(255,255,255,0.08)"/>
-  </g>
-
-  <g class="pulse">
-    <circle cx="180" cy="150" r="86" fill="none" stroke="url(#aurora)" stroke-width="4" opacity="0.88"/>
-    <circle class="spin" cx="180" cy="150" r="106" fill="none" stroke="rgba(34,211,238,0.42)" stroke-width="2.4" stroke-dasharray="16 11"/>
-    <circle class="spin reverse" cx="180" cy="150" r="122" fill="none" stroke="rgba(255,79,216,0.38)" stroke-width="2" stroke-dasharray="12 16"/>
-  </g>
-
-  <circle cx="180" cy="150" r="66" fill="url(#glass)" stroke="rgba(255,255,255,0.42)" stroke-width="2.4"/>
-  <path d="M180 74v-20" stroke="#67e8f9" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="180" cy="48" r="11" fill="#f59e0b" stroke="#fff" stroke-width="3"/>
-  <rect x="124" y="112" width="112" height="74" rx="26" fill="#0f172a" stroke="url(#aurora)" stroke-width="3.2"/>
-  <g class="blink">
-    <rect x="145" y="140" width="22" height="16" rx="8" fill="url(#beam)"/>
-    <rect x="193" y="140" width="22" height="16" rx="8" fill="url(#beam)"/>
-  </g>
-  <path d="M148 172c18 14 46 14 64 0" fill="none" stroke="#ff4fd8" stroke-width="6" stroke-linecap="round"/>
-  <path d="M108 149H90m162 0h18" stroke="#8b5cf6" stroke-width="7" stroke-linecap="round"/>
-  <rect class="scan" x="128" y="122" width="104" height="10" rx="5" fill="rgba(94,234,212,0.4)"/>
-
-  <g fill="#ffffff">
-    <circle class="spark" cx="92" cy="112" r="5"/>
-    <circle class="spark two" cx="268" cy="84" r="4"/>
-    <circle class="spark three" cx="258" cy="228" r="5"/>
-  </g>
-
-  <g opacity="0.9">
-    <path d="M94 246h172" stroke="rgba(139,92,246,0.45)" stroke-width="1.2"/>
-    <path d="M116 262h128" stroke="rgba(34,211,238,0.35)" stroke-width="1.2"/>
-    <path d="M142 278h76" stroke="rgba(255,79,216,0.35)" stroke-width="1.2"/>
-  </g>
-
-  <rect x="62" y="300" width="236" height="38" rx="14" fill="rgba(9,14,28,0.92)" stroke="url(#aurora)" stroke-width="2"/>
-  <text x="180" y="325" text-anchor="middle" font-family="Rajdhani, Trebuchet MS, sans-serif" font-size="25" font-weight="700" fill="#ffffff">ManikantChatsU</text>
-
-  <text x="180" y="359" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="13" letter-spacing="2.4" fill="#7dd3fc">AI x WEB3 README GUIDE</text>
 </svg>
