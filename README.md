@@ -5,6 +5,7 @@
 
 <p align="center">
   <a href="#about">About</a> &nbsp; / &nbsp;
+  <a href="#featured-work">Featured work</a> &nbsp; / &nbsp;
   <a href="#engineering">Engineering</a> &nbsp; / &nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp;
   <a href="#ai-radar">AI Radar</a> &nbsp; / &nbsp;
@@ -69,6 +70,57 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
   <sub><strong>Meet ManikantChatsU</strong> · Explore my profile through an AI × Web3 assistant.</sub>
 </p>
 
+<a id="featured-work"></a>
+
+## Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://autohealops.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/AutoHealOps/main/docs/screenshots/autohealops-vercel.png" alt="AutoHealOps dashboard showing Kubernetes workload health and recovery activity" width="100%" /></a>
+<h3>AutoHealOps</h3>
+<p><sub><strong>KUBERNETES · AIOPS</strong></sub></p>
+<p>Explore cluster telemetry, detect anomalies, and review guarded recovery actions in a self-healing Kubernetes simulator.</p>
+<p><a href="https://autohealops.vercel.app"><strong>Live demo ↗</strong></a> · <a href="https://github.com/manikantbindass/AutoHealOps">Source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://flownova-ai.vercel.app"><img src="https://raw.githubusercontent.com/manikantbindass/FlowNovaAI/main/docs/assets/screenshots/editor.png" alt="FlowNova AI's visual workflow editor with connected nodes" width="100%" /></a>
+<h3>FlowNova AI</h3>
+<p><sub><strong>WORKFLOW AUTOMATION · FULL STACK</strong></sub></p>
+<p>Build workflows on a visual canvas, publish versions, run them, and inspect the results from each node.</p>
+<p><a href="https://flownova-ai.vercel.app"><strong>Live demo ↗</strong></a> · <a href="https://github.com/manikantbindass/FlowNovaAI">Source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>MathLens</h3>
+<p><sub><strong>MATH VISUALIZATION · MODEL ANALYSIS</strong></sub></p>
+<p>An interactive workbench for mathematical concepts behind machine learning, from loss surfaces to optimization.</p>
+<p><a href="https://mathlens-wine.vercel.app"><strong>Open MathLens ↗</strong></a> · <a href="https://github.com/manikantbindass/mathlens">Source</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>NeuroMap AI</h3>
+<p><sub><strong>SCIENTIFIC SOFTWARE · REPRODUCIBLE ML</strong></sub></p>
+<p>A research workspace for visualizing brain images and running reproducible ML experiments with synthetic data.</p>
+<p><a href="https://github.com/manikantbindass/NeuroMap.AI"><strong>Explore the project ↗</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>SecureRxChain</h3>
+<p><sub><strong>SMART CONTRACTS · SUPPLY CHAIN</strong></sub></p>
+<p>A project exploring pharmaceutical batch traceability with Solidity contracts, QR verification, and anomaly detection.</p>
+<p><a href="https://github.com/manikantbindass/SecureRxChain-Blockchain-Based-Drug-Supply-Chain-Counterfeit-Medicine-Prevention-System"><strong>Explore the project ↗</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>LeetCode AI Sync</h3>
+<p><sub><strong>DEVELOPER TOOLS · BROWSER EXTENSION</strong></sub></p>
+<p>A TypeScript Chrome extension that sends accepted LeetCode solutions to GitHub and generates versions in other programming languages for practice.</p>
+<p><a href="https://github.com/manikantbindass/Leetcode-GitPush-extension"><strong>Extension source ↗</strong></a> · <a href="https://github.com/manikantbindass/DSA-Preparation-FAANG">Solution archive</a></p>
+</td>
+</tr>
+</table>
+
 <a id="engineering"></a>
 
 ## Engineering, with the whole system in mind
@@ -129,12 +181,45 @@ C, Go, HTML, CSS, Express, Three.js, NumPy, Pandas, pylab, Nginx, Bash, Jenkins,
 A curated timeline of the releases shaping how I think about AI engineering.
 
 <p align="center">
-  <img src="ai-model-timeline.svg?v=20261103" width="100%" alt="Selected AI milestones from GPT-3 in 2020 to October 2026 releases: GPT-6.1 Terra, Claude 5.5, Gemini 4 Argon and restricted-access Carbon. Checked November 3, 2026." />
+  <img src="ai-model-timeline.svg?v=20261127" width="100%" alt="Selected AI milestones from GPT-3 in 2020 to November 2026: GPT-6.2 Astra and Sol, Claude Fable 5.2 and Mythos 5.2, and Gemini 4 Neon and Carbon. October milestones are also shown." />
 </p>
 
-### Recent releases worth tracking
+### Models I’m tracking
 
-**Last checked: November 3, 2026.** This is a curated snapshot; availability varies by product and access tier.
+**Last checked November 27, 2026.** Dates are in 2026 and mark the listed release or availability milestone. The table links to the providers’ announcements and model docs.
+
+| Date | Model | Why it’s worth tracking | Access |
+| :--- | :--- | :--- | :--- |
+| Nov 19 | [Genie 4](https://aistudio.google.com/docs/models/genie-4) | Generates steerable worlds with live video and synchronized audio from text or an image. | Paid Interactions API |
+| Nov 18 | [Gemini 4 Neon](https://aistudio.google.com/docs/models/gemini-4-neon) | Fast multimodal reasoning for coding and knowledge work, with a 1M-token context window. | Paid Gemini API |
+| Nov 17 | [GPT-6.2 Astra & Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol/) | Astra for harder coding and reasoning. Sol for faster, lower-cost multistep work. | OpenAI API |
+| Nov 16 | [Qwen4-Max](https://qwen.ai/blog?id=qwen4-max) | Native vision and a 1M-token context window for coding, tool use, and long-running tasks. | QwenCloud API and Token Plan |
+| Nov 12 | [Gemini 4 Hydrogen](https://aistudio.google.com/docs/models/gemini-4-hydrogen) | A faster Gemini 4 option for everyday reasoning and high-volume agent workflows. | Free and paid Gemini API tiers |
+| Nov 10 | [Gemini 4 Carbon](https://aistudio.google.com/docs/models/gemini-4-carbon) | Reasoning for sustained coding and multimodal work. Generally available as of November 10. | Paid Gemini API |
+| Nov 9 | [Claude Fable 5.2 & Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) | Fable handles complex coding and technical work. Mythos is a restricted sibling release. | Fable on Claude Platform and cloud providers. Mythos requires vetted access. |
+| Oct 29 | [Mistral Large 4](https://mistral.ai/news/mistral-large-4-oss/) | The open-weight release adds a self-hosting option for multimodal reasoning and coding. | Downloadable weights and hosted API |
+| Oct 17 | [DeepSeek V4.1 Flash 1017](https://api-docs.deepseek.com/news/news261017/) | The Flash snapshot updates coding and multimodal understanding. The November API update added search and file inputs. | DeepSeek API via `deepseek-flash` |
+
+For the rest of the Claude lineup, [Opus 5.5](https://www.anthropic.com/claude-opus-5-5) is the general-purpose option for complex work, [Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) balances capability and cost, and [Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) targets fast, high-volume tasks.
+
+> **My builder takeaway:** evaluate models on the actual workflow—quality, latency, cost, tool reliability, and security—then design routing and fallbacks around the result.
+
+<details>
+<summary><strong>How I compare models for engineering work</strong></summary>
+
+| Workflow | What I check |
+| :--- | :--- |
+| **Coding** | Run the same issue and tests across models. Review correctness, scope of changes, and time to a passing result. |
+| **Retrieval** | Use the same document set. Measure citation accuracy, how well answers reflect the sources, and behavior when evidence is missing. |
+| **Tool use** | Check argument validity, permission boundaries, retries, and recovery from missing or malformed tool responses. |
+| **Model routing** | Compare cost per completed task and p95 latency. Track when a smaller model needs to hand off to a stronger one. |
+
+</details>
+
+<details>
+<summary><strong>September–October 2026 release archive</strong></summary>
+
+**Snapshot from November 3, 2026.** The access column records availability at the time of each announcement.
 
 | Announced | Model / release | What changed | Access at announcement |
 | :--- | :--- | :--- | :--- |
@@ -146,19 +231,19 @@ A curated timeline of the releases shaping how I think about AI engineering.
 | **Sep 28, 2026** | [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5) | Faster, lower-cost complement to Opus 5.5. | See official release for platform availability. |
 | **Sep 22, 2026** | [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5) | Agentic coding and knowledge work. | See official release for platform availability. |
 
-> **My builder takeaway:** evaluate models on the actual workflow—quality, latency, cost, tool reliability, and security—then design routing and fallbacks around the result.
+</details>
 
 <details>
 <summary><strong>Timeline notes & official sources</strong></summary>
 
-Selected milestones, rather than an exhaustive history or a benchmark ranking. The 2026 “agents + tool use” card describes an engineering direction, not a single model release. The release table is a dated snapshot and does not update automatically.
+The timeline shows selected milestones. The 2026 “agents + tool use” card marks a shift toward multi-step workflows. The watchlist is maintained by hand.
 
 - **2020:** [GPT-3 paper](https://arxiv.org/abs/2005.14165).
 - **2022:** [Introducing ChatGPT](https://openai.com/index/chatgpt/).
 - **2023:** [GPT-4](https://openai.com/index/gpt-4-research/).
 - **2024:** [GPT-4o](https://openai.com/index/hello-gpt-4o/) · [Claude 3](https://www.anthropic.com/news/claude-3-family).
 - **2025:** [DeepSeek-R1](https://deepseek.com/en/news/deepseek-r1/) · [GPT-5](https://openai.com/index/introducing-gpt-5/).
-- **2026:** [OpenAI model release notes](https://help.openai.com/en/articles/9624314-model-release-notes) · [Anthropic announcements](https://www.anthropic.com/news) · [Gemini API changelog](https://aistudio.google.com/docs/changelog) · [Gemini 4 Carbon announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/).
+- **2026:** [OpenAI model release notes](https://help.openai.com/en/articles/9624314-model-release-notes) · [Anthropic announcements](https://www.anthropic.com/news) · [Gemini API changelog](https://aistudio.google.com/docs/changelog) · [Gemini 4 Carbon announcement](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/) · [DeepSeek API updates](https://api-docs.deepseek.com/updates/) · [Mistral release notes](https://docs.mistral.ai/resources/changelogs) · [Alibaba Cloud model updates](https://www.alibabacloud.com/help/en/model-studio/token-plan-product-updates).
 
 </details>
 
@@ -195,6 +280,8 @@ I share ideas and learning on [Medium](https://medium.com/@manikantbindass) and 
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=manikantbindass&amp;theme=tokyonight" width="49%" alt="GitHub profile statistics" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=manikantbindass&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" width="49%" alt="Languages across public repositories" />
 </p>
+
+[Full GitHub activity](https://github.com/manikantbindass?tab=overview) · [Stars and saved repositories](https://github.com/manikantbindass?tab=stars)
 
 <sub>Activity cards are provided by external services and may occasionally be unavailable.</sub>
 
