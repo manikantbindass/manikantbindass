@@ -36,13 +36,7 @@
   <sub>Always curious. Always building.</sub>
 </p>
 
-<p align="center"><a href="https://manikantbindass.github.io/manikantbindass/"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/manikantbindass?tab=repositories">Browse my repositories ↗</a></p>
-
-<p align="center">
-  <a href="https://manikantbindass.github.io/manikantbindass/">
-    <img src="assets/portfolio-preview.svg" width="100%" alt="Open Manikant Kumar’s portfolio. Explore his engineering focus, projects, and profile assistant." />
-  </a>
-</p>
+<p align="center"><a href="https://portfolio-ten-omega-4ibkho6f7u.vercel.app/"><strong>Visit my portfolio ↗</strong></a> · <a href="https://github.com/manikantbindass?tab=repositories">Browse my repositories ↗</a></p>
 
 <a id="about"></a>
 
