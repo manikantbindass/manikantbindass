@@ -82,7 +82,7 @@ My current focus is **agentic AI, retrieval-augmented generation, secure APIs, a
 ## Featured work
 
 <p align="center">
-  <img src="assets/project-workflows.svg" width="100%" alt="Animated project workflows. AutoHealOps: observe telemetry, flag an anomaly, and review recovery. FlowNova AI: build, publish, and run a workflow. SecureRxChain: register a batch, scan its QR code, and verify it." />
+  <img src="assets/project-workflows-jewel.svg" width="100%" alt="Animated project workflows. AutoHealOps: observe telemetry, flag an anomaly, and review recovery. FlowNova AI: build, publish, and run a workflow. SecureRxChain: register a batch, scan its QR code, and verify it." />
 </p>
 
 <table>
