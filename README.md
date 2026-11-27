@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <img src="ChatGPT%20Image%20Apr%204%2C%202025%2C%2012_27_55%20AM.png" width="260" alt="Illustrated portrait of Manikant beside a sunlit pillar" />
+  <img src="assets/portrait-frame.svg" width="260" alt="Illustrated portrait of Manikant beside a sunlit pillar" />
   <br />
   <sub>Always curious. Always building.</sub>
 </p>
